@@ -1,0 +1,7 @@
+{
+  "id": "unlock_cars",
+  "name": "Unlock Cars",
+  "version": "1.0.0",
+  "author": "mayhem",
+  "description": "Makes every car available without unlocking it first (CLK-GTR, F1 GTR, Phantom, Titan, the bonus cars and the cop cars)."
+}

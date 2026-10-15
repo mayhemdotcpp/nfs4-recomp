@@ -1,0 +1,4650 @@
+{
+  "functions": [
+    {
+      "address": "0x800128A0",
+      "name": "MinFront_ParseOptions__Fv",
+      "size": 72
+    },
+    {
+      "address": "0x800128E8",
+      "name": "Fe3D_InitShowroom__Fv",
+      "size": 428
+    },
+    {
+      "address": "0x80012A94",
+      "name": "CameraLookAt__FP10matrixtdefP8coorddef",
+      "size": 276
+    },
+    {
+      "address": "0x80012BA8",
+      "name": "Draw_MenuRenderingView__FP8Car_tObjP13DRender_tViewiiiUliffii",
+      "size": 936
+    },
+    {
+      "address": "0x80012F50",
+      "name": "func_80012F50",
+      "size": 424
+    },
+    {
+      "address": "0x800130F8",
+      "name": "__14tFEApplication",
+      "size": 548
+    },
+    {
+      "address": "0x8001331C",
+      "name": "___14tFEApplication",
+      "size": 112
+    },
+    {
+      "address": "0x8001338C",
+      "name": "PerformMenuInitialization__14tFEApplication",
+      "size": 104
+    },
+    {
+      "address": "0x800133F4",
+      "name": "PerformMenuDestruction__14tFEApplication",
+      "size": 168
+    },
+    {
+      "address": "0x8001349C",
+      "name": "DrawHelpIcons__14tFEApplication",
+      "size": 1016
+    },
+    {
+      "address": "0x80013894",
+      "name": "func_80013894",
+      "size": 1440
+    },
+    {
+      "address": "0x80013E34",
+      "name": "UpdateMusic__14tFEApplication",
+      "size": 192
+    },
+    {
+      "address": "0x80013EF4",
+      "name": "SetMenu__14tFEApplicationsP5tMenu",
+      "size": 260
+    },
+    {
+      "address": "0x80013FF8",
+      "name": "SetScreen__14tFEApplicationsP7tScreen",
+      "size": 80
+    },
+    {
+      "address": "0x80014048",
+      "name": "DisplayHelp__14tFEApplications",
+      "size": 36
+    },
+    {
+      "address": "0x8001406C",
+      "name": "FreeHelpShapeCluts__Fv",
+      "size": 124
+    },
+    {
+      "address": "0x800140E8",
+      "name": "func_800140E8",
+      "size": 736
+    },
+    {
+      "address": "0x800143C8",
+      "name": "MainLoop__14tFEApplicationP5tMenu",
+      "size": 4492
+    },
+    {
+      "address": "0x80015554",
+      "name": "RunPostGame__14tFEApplication",
+      "size": 776
+    },
+    {
+      "address": "0x8001585C",
+      "name": "RunFrontEnd__14tFEApplication",
+      "size": 40
+    },
+    {
+      "address": "0x80015884",
+      "name": "___31tDialogMessageStringWithTimeout",
+      "size": 32
+    },
+    {
+      "address": "0x800158A8",
+      "name": "FEAudio_StartLoadPatch__FP10SPEECHINFO",
+      "size": 164
+    },
+    {
+      "address": "0x8001594C",
+      "name": "Feaudio_StartPatch__FP10SPEECHINFO",
+      "size": 292
+    },
+    {
+      "address": "0x80015A70",
+      "name": "FeAudio_systemtask__Fi",
+      "size": 644
+    },
+    {
+      "address": "0x80015CF4",
+      "name": "FeAudio_AsyncPlayCommentary__FPc",
+      "size": 236
+    },
+    {
+      "address": "0x80015DE0",
+      "name": "FeAudio_AsyncPlaySpeech__Fii",
+      "size": 124
+    },
+    {
+      "address": "0x80015E5C",
+      "name": "FeAudio_StartBigfileRead__FPciiPi",
+      "size": 152
+    },
+    {
+      "address": "0x80015EF4",
+      "name": "FeAudio_LocateBigfile__FP9LUMPYHEADPcPiT2",
+      "size": 344
+    },
+    {
+      "address": "0x8001604C",
+      "name": "FeAudio_InitViv__FPc",
+      "size": 436
+    },
+    {
+      "address": "0x80016200",
+      "name": "FeAudio_InitCommentary__Fii",
+      "size": 160
+    },
+    {
+      "address": "0x800162A0",
+      "name": "FeAudio_DeInitCommentary__Fv",
+      "size": 56
+    },
+    {
+      "address": "0x800162D8",
+      "name": "Initialize__11tCarManager",
+      "size": 156
+    },
+    {
+      "address": "0x80016374",
+      "name": "func_80016374",
+      "size": 112
+    },
+    {
+      "address": "0x800163E4",
+      "name": "GetCarFromSimID__11tCarManagers",
+      "size": 80
+    },
+    {
+      "address": "0x80016434",
+      "name": "CheapestCarStockPrice__11tCarManager",
+      "size": 88
+    },
+    {
+      "address": "0x8001648C",
+      "name": "CalcUsedPrice__11tCarManagers",
+      "size": 268
+    },
+    {
+      "address": "0x80016598",
+      "name": "PurchaseCar__11tCarManagersss",
+      "size": 220
+    },
+    {
+      "address": "0x80016674",
+      "name": "SellCar__11tCarManagerss",
+      "size": 384
+    },
+    {
+      "address": "0x800167F4",
+      "name": "PurchaseUpgrade__11tCarManagersss",
+      "size": 268
+    },
+    {
+      "address": "0x80016900",
+      "name": "RemoveFromPinkSlipsList__11tCarManagerss",
+      "size": 328
+    },
+    {
+      "address": "0x80016A48",
+      "name": "AddToPinkSlipsList__11tCarManagersss",
+      "size": 124
+    },
+    {
+      "address": "0x80016AC4",
+      "name": "AddUpgradesToPinkSlipsList__11tCarManagersss",
+      "size": 216
+    },
+    {
+      "address": "0x80016B9C",
+      "name": "LoadCars__11tCarManagerR12tSaveCarInfos",
+      "size": 156
+    },
+    {
+      "address": "0x80016C38",
+      "name": "SaveCars__11tCarManagerR12tSaveCarInfo",
+      "size": 120
+    },
+    {
+      "address": "0x80016CB0",
+      "name": "LoadPinkSlipsCars__11tCarManagerR12tSaveCarInfos",
+      "size": 164
+    },
+    {
+      "address": "0x80016D54",
+      "name": "SavePinkSlipsCars__11tCarManagerR12tSaveCarInfoss",
+      "size": 348
+    },
+    {
+      "address": "0x80016EB0",
+      "name": "SetClassAvailable__11tCarManager13tCarClassTypeb",
+      "size": 132
+    },
+    {
+      "address": "0x80016F34",
+      "name": "SetCarAvailable__11tCarManager10tCarModelsb",
+      "size": 28
+    },
+    {
+      "address": "0x80016F50",
+      "name": "SetClassViewable__11tCarManager13tCarClassTypeb",
+      "size": 108
+    },
+    {
+      "address": "0x80016FBC",
+      "name": "SetCarViewable__11tCarManager10tCarModelsb",
+      "size": 28
+    },
+    {
+      "address": "0x80016FD8",
+      "name": "GetStockCar__11tCarManagersR8tCarInfo",
+      "size": 188
+    },
+    {
+      "address": "0x80017094",
+      "name": "GetGarageCar__11tCarManagersR8tCarInfos",
+      "size": 268
+    },
+    {
+      "address": "0x800171A0",
+      "name": "GetPinkSlipsCar__11tCarManagersR8tCarInfos",
+      "size": 220
+    },
+    {
+      "address": "0x8001727C",
+      "name": "LoadDescription__11tCarManager",
+      "size": 448
+    },
+    {
+      "address": "0x8001743C",
+      "name": "ReleaseDescription__11tCarManager",
+      "size": 64
+    },
+    {
+      "address": "0x8001747C",
+      "name": "func_8001747C",
+      "size": 68
+    },
+    {
+      "address": "0x800174C0",
+      "name": "GetNumTourneyCars__11tCarManagers",
+      "size": 168
+    },
+    {
+      "address": "0x80017568",
+      "name": "func_80017568",
+      "size": 68
+    },
+    {
+      "address": "0x800175AC",
+      "name": "GetClassList__11tCarManager13tCarClassTypesP10tCarModels",
+      "size": 276
+    },
+    {
+      "address": "0x800176C0",
+      "name": "InitializeIngameCarList__11tCarManager",
+      "size": 128
+    },
+    {
+      "address": "0x80017740",
+      "name": "IsCarAnAddedModel__11tCarManagerR10tCarModelsRc",
+      "size": 128
+    },
+    {
+      "address": "0x800177C0",
+      "name": "AddCarToIngameList__11tCarManagerR10tCarModelsRc",
+      "size": 160
+    },
+    {
+      "address": "0x80017860",
+      "name": "FindSimilarCar__11tCarManagerR10tCarModelsRcsP10tCarModels",
+      "size": 436
+    },
+    {
+      "address": "0x80017A14",
+      "name": "__16tListIteratorCarPcP11tCarManager",
+      "size": 92
+    },
+    {
+      "address": "0x80017A70",
+      "name": "___16tListIteratorCar",
+      "size": 40
+    },
+    {
+      "address": "0x80017A98",
+      "name": "Value__16tListIteratorCar7tPlayer",
+      "size": 44
+    },
+    {
+      "address": "0x80017AC4",
+      "name": "TextValue__16tListIteratorCar7tPlayer",
+      "size": 288
+    },
+    {
+      "address": "0x80017BE4",
+      "name": "func_80017BE4",
+      "size": 1520
+    },
+    {
+      "address": "0x800181D4",
+      "name": "func_800181D4",
+      "size": 32
+    },
+    {
+      "address": "0x800181F4",
+      "name": "func_800181F4",
+      "size": 32
+    },
+    {
+      "address": "0x80018214",
+      "name": "ValidCar__16tListIteratorCar7tPlayerc",
+      "size": 972
+    },
+    {
+      "address": "0x800185E0",
+      "name": "__21tListIteratorCarColorPcN21iP11tCarManager",
+      "size": 128
+    },
+    {
+      "address": "0x80018660",
+      "name": "___21tListIteratorCarColor",
+      "size": 40
+    },
+    {
+      "address": "0x80018688",
+      "name": "Value__21tListIteratorCarColor7tPlayer",
+      "size": 96
+    },
+    {
+      "address": "0x800186E8",
+      "name": "func_800186E8",
+      "size": 8
+    },
+    {
+      "address": "0x800186F0",
+      "name": "Increment__21tListIteratorCarColor7tPlayer",
+      "size": 152
+    },
+    {
+      "address": "0x80018788",
+      "name": "Decrement__21tListIteratorCarColor7tPlayer",
+      "size": 128
+    },
+    {
+      "address": "0x80018808",
+      "name": "ShouldTimeOut__11tDialogBase",
+      "size": 56
+    },
+    {
+      "address": "0x80018840",
+      "name": "InitializeClass__11tDialogBase",
+      "size": 32
+    },
+    {
+      "address": "0x80018860",
+      "name": "DrawAllDialogs__11tDialogBase",
+      "size": 208
+    },
+    {
+      "address": "0x80018930",
+      "name": "HideAllDialogs__11tDialogBase",
+      "size": 64
+    },
+    {
+      "address": "0x80018970",
+      "name": "GetTopMostDialog__11tDialogBase",
+      "size": 16
+    },
+    {
+      "address": "0x80018980",
+      "name": "Display__11tDialogBase",
+      "size": 196
+    },
+    {
+      "address": "0x80018A44",
+      "name": "Hide__11tDialogBase",
+      "size": 180
+    },
+    {
+      "address": "0x80018AF8",
+      "name": "Draw__11tDialogBase",
+      "size": 272
+    },
+    {
+      "address": "0x80018C08",
+      "name": "ProcessInput__11tDialogBase7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 68
+    },
+    {
+      "address": "0x80018C4C",
+      "name": "AddItem__11tDialogHelpss",
+      "size": 132
+    },
+    {
+      "address": "0x80018CD0",
+      "name": "CalculateDimensions__11tDialogHelp",
+      "size": 1436
+    },
+    {
+      "address": "0x8001926C",
+      "name": "Draw__11tDialogHelp",
+      "size": 748
+    },
+    {
+      "address": "0x80019558",
+      "name": "CalculateDimensions__20tDialogMessageString",
+      "size": 532
+    },
+    {
+      "address": "0x8001976C",
+      "name": "Draw__20tDialogMessageString",
+      "size": 356
+    },
+    {
+      "address": "0x800198D0",
+      "name": "ProcessInput__17tDialogBackUpOnly7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 88
+    },
+    {
+      "address": "0x80019928",
+      "name": "Run__18tDialogInteractive",
+      "size": 492
+    },
+    {
+      "address": "0x80019B14",
+      "name": "CalculateDimensions__12tDialogYesNo",
+      "size": 184
+    },
+    {
+      "address": "0x80019BCC",
+      "name": "__12tDialogYesNo",
+      "size": 184
+    },
+    {
+      "address": "0x80019C84",
+      "name": "Draw__12tDialogYesNo",
+      "size": 392
+    },
+    {
+      "address": "0x80019E0C",
+      "name": "ProcessInput__12tDialogYesNo7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 204
+    },
+    {
+      "address": "0x80019ED8",
+      "name": "ProcessInput__15tDialogYesNoMem7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 228
+    },
+    {
+      "address": "0x80019FBC",
+      "name": "ProcessInput__15tDialogYesNoTri7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 64
+    },
+    {
+      "address": "0x80019FFC",
+      "name": "func_80019FFC",
+      "size": 8
+    },
+    {
+      "address": "0x8001A004",
+      "name": "func_8001A004",
+      "size": 32
+    },
+    {
+      "address": "0x8001A024",
+      "name": "func_8001A024",
+      "size": 32
+    },
+    {
+      "address": "0x8001A044",
+      "name": "func_8001A044",
+      "size": 32
+    },
+    {
+      "address": "0x8001A064",
+      "name": "func_8001A064",
+      "size": 32
+    },
+    {
+      "address": "0x8001A084",
+      "name": "func_8001A084",
+      "size": 32
+    },
+    {
+      "address": "0x8001A0A4",
+      "name": "func_8001A0A4",
+      "size": 32
+    },
+    {
+      "address": "0x8001A0C4",
+      "name": "func_8001A0C4",
+      "size": 32
+    },
+    {
+      "address": "0x8001A0E4",
+      "name": "func_8001A0E4",
+      "size": 32
+    },
+    {
+      "address": "0x8001A104",
+      "name": "___11tDialogBase",
+      "size": 36
+    },
+    {
+      "address": "0x8001A128",
+      "name": "MenuNFS4_SetHelpPos__FR4RECT",
+      "size": 48
+    },
+    {
+      "address": "0x8001A158",
+      "name": "func_8001A158",
+      "size": 1204
+    },
+    {
+      "address": "0x8001A60C",
+      "name": "__27tMenuItemGoToMenuNFS4ButtonUiP5tMenuPFR12tMenuCommand_vii",
+      "size": 104
+    },
+    {
+      "address": "0x8001A674",
+      "name": "func_8001A674",
+      "size": 40
+    },
+    {
+      "address": "0x8001A69C",
+      "name": "Draw__27tMenuItemGoToMenuNFS4Buttoniib",
+      "size": 636
+    },
+    {
+      "address": "0x8001A918",
+      "name": "func_8001A918",
+      "size": 16
+    },
+    {
+      "address": "0x8001A928",
+      "name": "func_8001A928",
+      "size": 12
+    },
+    {
+      "address": "0x8001A934",
+      "name": "func_8001A934",
+      "size": 12
+    },
+    {
+      "address": "0x8001A940",
+      "name": "func_8001A940",
+      "size": 92
+    },
+    {
+      "address": "0x8001A99C",
+      "name": "__28tMenuItemNFS4LeftRightChoiceUiP13tListIteratorii",
+      "size": 100
+    },
+    {
+      "address": "0x8001AA00",
+      "name": "func_8001AA00",
+      "size": 40
+    },
+    {
+      "address": "0x8001AA28",
+      "name": "Draw__28tMenuItemNFS4LeftRightChoiceiib",
+      "size": 660
+    },
+    {
+      "address": "0x8001ACBC",
+      "name": "func_8001ACBC",
+      "size": 16
+    },
+    {
+      "address": "0x8001ACCC",
+      "name": "func_8001ACCC",
+      "size": 12
+    },
+    {
+      "address": "0x8001ACD8",
+      "name": "func_8001ACD8",
+      "size": 12
+    },
+    {
+      "address": "0x8001ACE4",
+      "name": "func_8001ACE4",
+      "size": 92
+    },
+    {
+      "address": "0x8001AD40",
+      "name": "Draw__31tMenuItemOptionsLeftRightChoiceiib",
+      "size": 472
+    },
+    {
+      "address": "0x8001AF18",
+      "name": "TransitionOn__29tMenuItemOptionsTwoItemChoice",
+      "size": 92
+    },
+    {
+      "address": "0x8001AF74",
+      "name": "Draw__29tMenuItemOptionsTwoItemChoiceiib",
+      "size": 644
+    },
+    {
+      "address": "0x8001B1F8",
+      "name": "__9tMenuNFS4UiP7tScreenP5tMenuT3PFR12tMenuCommand_vsP9tMenuIteme",
+      "size": 104
+    },
+    {
+      "address": "0x8001B260",
+      "name": "__9tMenuNFS4UiP7tScreenP5tMenuT3PFR12tMenuCommand_vs",
+      "size": 88
+    },
+    {
+      "address": "0x8001B2B8",
+      "name": "___9tMenuNFS4",
+      "size": 40
+    },
+    {
+      "address": "0x8001B2E0",
+      "name": "Initialize__9tMenuNFS4",
+      "size": 176
+    },
+    {
+      "address": "0x8001B390",
+      "name": "ProcessInput__9tMenuNFS47tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 32
+    },
+    {
+      "address": "0x8001B3B0",
+      "name": "func_8001B3B0",
+      "size": 136
+    },
+    {
+      "address": "0x8001B438",
+      "name": "func_8001B438",
+      "size": 136
+    },
+    {
+      "address": "0x8001B4C0",
+      "name": "TransitionIsFinished__9tMenuNFS4",
+      "size": 160
+    },
+    {
+      "address": "0x8001B560",
+      "name": "UpdateTransition__9tMenuNFS4",
+      "size": 148
+    },
+    {
+      "address": "0x8001B5F4",
+      "name": "DrawItem__9tMenuNFS4i",
+      "size": 96
+    },
+    {
+      "address": "0x8001B654",
+      "name": "Draw__9tMenuNFS4",
+      "size": 328
+    },
+    {
+      "address": "0x8001B79C",
+      "name": "__18tMenuNFS4TwoPlayerUiP7tScreenP5tMenuT3PFR12tMenuCommand_vsP9tMenuIteme",
+      "size": 108
+    },
+    {
+      "address": "0x8001B808",
+      "name": "func_8001B808",
+      "size": 40
+    },
+    {
+      "address": "0x8001B830",
+      "name": "DrawItem__18tMenuNFS4TwoPlayeri",
+      "size": 120
+    },
+    {
+      "address": "0x8001B8A8",
+      "name": "__15tMenuNFS4BottomUiP7tScreenP5tMenuT3PFR12tMenuCommand_vsP9tMenuIteme",
+      "size": 104
+    },
+    {
+      "address": "0x8001B910",
+      "name": "func_8001B910",
+      "size": 40
+    },
+    {
+      "address": "0x8001B938",
+      "name": "Draw__15tMenuNFS4Bottom",
+      "size": 192
+    },
+    {
+      "address": "0x8001B9F8",
+      "name": "__10tMenuBlankUiP7tScreenP5tMenuT3PFR12tMenuCommand_vs",
+      "size": 100
+    },
+    {
+      "address": "0x8001BA5C",
+      "name": "func_8001BA5C",
+      "size": 40
+    },
+    {
+      "address": "0x8001BA84",
+      "name": "Draw__10tMenuBlank",
+      "size": 100
+    },
+    {
+      "address": "0x8001BAE8",
+      "name": "ProcessInput__10tMenuBlank7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 68
+    },
+    {
+      "address": "0x8001BB2C",
+      "name": "func_8001BB2C",
+      "size": 8
+    },
+    {
+      "address": "0x8001BB34",
+      "name": "func_8001BB34",
+      "size": 8
+    },
+    {
+      "address": "0x8001BB3C",
+      "name": "TransitionOff__10tMenuBlank",
+      "size": 28
+    },
+    {
+      "address": "0x8001BB58",
+      "name": "TransitionOn__10tMenuBlank",
+      "size": 24
+    },
+    {
+      "address": "0x8001BB70",
+      "name": "TransitionIsFinished__10tMenuBlank",
+      "size": 60
+    },
+    {
+      "address": "0x8001BBAC",
+      "name": "__12tMenuOptionsUiP7tScreenP5tMenuT3PFR12tMenuCommand_vssP9tMenuIteme",
+      "size": 120
+    },
+    {
+      "address": "0x8001BC24",
+      "name": "func_8001BC24",
+      "size": 40
+    },
+    {
+      "address": "0x8001BC4C",
+      "name": "Draw__12tMenuOptions",
+      "size": 728
+    },
+    {
+      "address": "0x8001BF24",
+      "name": "TransitionOff__12tMenuOptions",
+      "size": 60
+    },
+    {
+      "address": "0x8001BF60",
+      "name": "TransitionOn__12tMenuOptions",
+      "size": 152
+    },
+    {
+      "address": "0x8001BFF8",
+      "name": "TransitionIsFinished__12tMenuOptions",
+      "size": 36
+    },
+    {
+      "address": "0x8001C01C",
+      "name": "ProcessInput__12tMenuOptions7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 52
+    },
+    {
+      "address": "0x8001C050",
+      "name": "func_8001C050",
+      "size": 8
+    },
+    {
+      "address": "0x8001C058",
+      "name": "func_8001C058",
+      "size": 8
+    },
+    {
+      "address": "0x8001C060",
+      "name": "func_8001C060",
+      "size": 32
+    },
+    {
+      "address": "0x8001C080",
+      "name": "func_8001C080",
+      "size": 32
+    },
+    {
+      "address": "0x8001C0A0",
+      "name": "func_8001C0A0",
+      "size": 8
+    },
+    {
+      "address": "0x8001C0A8",
+      "name": "CalcPulsateYellow__Fv",
+      "size": 88
+    },
+    {
+      "address": "0x8001C100",
+      "name": "DrawLeftFlare__FiiiRi",
+      "size": 348
+    },
+    {
+      "address": "0x8001C25C",
+      "name": "SubtractiveBox__Fiiiiiiii",
+      "size": 352
+    },
+    {
+      "address": "0x8001C3BC",
+      "name": "func_8001C3BC",
+      "size": 12
+    },
+    {
+      "address": "0x8001C3C8",
+      "name": "TransitionOn__27tMenuItemGoToMenuButtonFade",
+      "size": 28
+    },
+    {
+      "address": "0x8001C3E4",
+      "name": "TransitionIsFinished__27tMenuItemGoToMenuButtonFade",
+      "size": 88
+    },
+    {
+      "address": "0x8001C43C",
+      "name": "func_8001C43C",
+      "size": 124
+    },
+    {
+      "address": "0x8001C4B8",
+      "name": "__22tMenuItemLeftRightFadeUiP13tListIterator",
+      "size": 60
+    },
+    {
+      "address": "0x8001C4F4",
+      "name": "TransitionOff__22tMenuItemLeftRightFade",
+      "size": 24
+    },
+    {
+      "address": "0x8001C50C",
+      "name": "TransitionOn__22tMenuItemLeftRightFade",
+      "size": 36
+    },
+    {
+      "address": "0x8001C530",
+      "name": "TransitionIsFinished__22tMenuItemLeftRightFade",
+      "size": 104
+    },
+    {
+      "address": "0x8001C598",
+      "name": "func_8001C598",
+      "size": 124
+    },
+    {
+      "address": "0x8001C614",
+      "name": "__12tOptionsMenuUiP7tScreenP5tMenuT3PFR12tMenuCommand_vsiiP9tMenuIteme",
+      "size": 144
+    },
+    {
+      "address": "0x8001C6A4",
+      "name": "___12tOptionsMenu",
+      "size": 40
+    },
+    {
+      "address": "0x8001C6CC",
+      "name": "DebounceKeys__12tOptionsMenu",
+      "size": 108
+    },
+    {
+      "address": "0x8001C738",
+      "name": "TransitionOff__12tOptionsMenu",
+      "size": 152
+    },
+    {
+      "address": "0x8001C7D0",
+      "name": "TransitionOn__12tOptionsMenu",
+      "size": 156
+    },
+    {
+      "address": "0x8001C86C",
+      "name": "TransitionIsFinished__12tOptionsMenu",
+      "size": 328
+    },
+    {
+      "address": "0x8001C9B4",
+      "name": "UpdateTransition__12tOptionsMenu",
+      "size": 688
+    },
+    {
+      "address": "0x8001CC64",
+      "name": "Draw__12tOptionsMenu",
+      "size": 516
+    },
+    {
+      "address": "0x8001CE68",
+      "name": "ProcessInput__12tOptionsMenu7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 136
+    },
+    {
+      "address": "0x8001CEF0",
+      "name": "__14tInsideBoxMenuUiP7tScreenP5tMenuT3PFR12tMenuCommand_vsP9tMenuIteme",
+      "size": 116
+    },
+    {
+      "address": "0x8001CF64",
+      "name": "___14tInsideBoxMenu",
+      "size": 40
+    },
+    {
+      "address": "0x8001CF8C",
+      "name": "ProcessInput__14tInsideBoxMenu7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 208
+    },
+    {
+      "address": "0x8001D05C",
+      "name": "Draw__14tInsideBoxMenusssss",
+      "size": 612
+    },
+    {
+      "address": "0x8001D2C0",
+      "name": "__20tMenuItemSlidingMenuUissssb",
+      "size": 168
+    },
+    {
+      "address": "0x8001D368",
+      "name": "___20tMenuItemSlidingMenu",
+      "size": 40
+    },
+    {
+      "address": "0x8001D390",
+      "name": "TransitionOff__20tMenuItemSlidingMenu",
+      "size": 44
+    },
+    {
+      "address": "0x8001D3BC",
+      "name": "TransitionOn__20tMenuItemSlidingMenu",
+      "size": 56
+    },
+    {
+      "address": "0x8001D3F4",
+      "name": "TransitionIsFinished__20tMenuItemSlidingMenu",
+      "size": 136
+    },
+    {
+      "address": "0x8001D47C",
+      "name": "UpdateTransition__20tMenuItemSlidingMenub",
+      "size": 124
+    },
+    {
+      "address": "0x8001D4F8",
+      "name": "DebounceKeys__20tMenuItemSlidingMenu",
+      "size": 72
+    },
+    {
+      "address": "0x8001D540",
+      "name": "Draw__20tMenuItemSlidingMenub",
+      "size": 60
+    },
+    {
+      "address": "0x8001D57C",
+      "name": "UpdatefOpenHeight__20tMenuItemSlidingMenub",
+      "size": 544
+    },
+    {
+      "address": "0x8001D79C",
+      "name": "Draw__20tMenuItemSlidingMenuiib",
+      "size": 1604
+    },
+    {
+      "address": "0x8001DDE0",
+      "name": "ProcessInput__20tMenuItemSlidingMenu7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 168
+    },
+    {
+      "address": "0x8001DE88",
+      "name": "SetMenu__20tMenuItemSlidingMenubP14tInsideBoxMenu",
+      "size": 68
+    },
+    {
+      "address": "0x8001DECC",
+      "name": "UpdatefOpenHeight__25tMenuItemSlidingActivatedb",
+      "size": 104
+    },
+    {
+      "address": "0x8001DF34",
+      "name": "TransitionOff__25tMenuItemSlidingActivated",
+      "size": 44
+    },
+    {
+      "address": "0x8001DF60",
+      "name": "TransitionOn__25tMenuItemSlidingActivated",
+      "size": 64
+    },
+    {
+      "address": "0x8001DFA0",
+      "name": "TransitionIsFinished__25tMenuItemSlidingActivated",
+      "size": 136
+    },
+    {
+      "address": "0x8001E028",
+      "name": "UpdateTransition__25tMenuItemSlidingActivatedb",
+      "size": 124
+    },
+    {
+      "address": "0x8001E0A4",
+      "name": "ProcessInput__25tMenuItemSlidingActivated7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 504
+    },
+    {
+      "address": "0x8001E29C",
+      "name": "MyLeftRightDraw__22tMenuItemLeftRightFadeii",
+      "size": 244
+    },
+    {
+      "address": "0x8001E390",
+      "name": "Draw__31tMenuItemDisplayLeftRightChoiceiib",
+      "size": 240
+    },
+    {
+      "address": "0x8001E480",
+      "name": "TransitionOn__29tMenuItemOnOffLeftRightChoice",
+      "size": 100
+    },
+    {
+      "address": "0x8001E4E4",
+      "name": "Draw__29tMenuItemOnOffLeftRightChoiceiib",
+      "size": 376
+    },
+    {
+      "address": "0x8001E65C",
+      "name": "__29tMenuItemLeftRightAudioSliderUiP13tListIteratori",
+      "size": 76
+    },
+    {
+      "address": "0x8001E6A8",
+      "name": "___29tMenuItemLeftRightAudioSlider",
+      "size": 40
+    },
+    {
+      "address": "0x8001E6D0",
+      "name": "Draw__29tMenuItemLeftRightAudioSlideriib",
+      "size": 524
+    },
+    {
+      "address": "0x8001E8DC",
+      "name": "Percentage__29tMenuItemLeftRightAudioSlider",
+      "size": 212
+    },
+    {
+      "address": "0x8001E9B0",
+      "name": "TransitionOff__29tMenuItemLeftRightAudioSlider",
+      "size": 16
+    },
+    {
+      "address": "0x8001E9C0",
+      "name": "TransitionOn__29tMenuItemLeftRightAudioSlider",
+      "size": 24
+    },
+    {
+      "address": "0x8001E9D8",
+      "name": "TransitionIsFinished__29tMenuItemLeftRightAudioSlider",
+      "size": 92
+    },
+    {
+      "address": "0x8001EA34",
+      "name": "UpdateTransition__29tMenuItemLeftRightAudioSliderb",
+      "size": 76
+    },
+    {
+      "address": "0x8001EA80",
+      "name": "__18tInsideBoxSongMenuUiP7tScreenP5tMenuT3PFR12tMenuCommand_vsP9tMenuIteme",
+      "size": 144
+    },
+    {
+      "address": "0x8001EB10",
+      "name": "___18tInsideBoxSongMenu",
+      "size": 40
+    },
+    {
+      "address": "0x8001EB38",
+      "name": "Draw__18tInsideBoxSongMenusssss",
+      "size": 624
+    },
+    {
+      "address": "0x8001EDA8",
+      "name": "DrawOneSong__18tInsideBoxSongMenussssss",
+      "size": 556
+    },
+    {
+      "address": "0x8001EFD4",
+      "name": "func_8001EFD4",
+      "size": 8
+    },
+    {
+      "address": "0x8001EFDC",
+      "name": "ProcessInput__18tInsideBoxSongMenu7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 520
+    },
+    {
+      "address": "0x8001F1E4",
+      "name": "Draw__34tMenuItemControllerLeftRightChoiceiib",
+      "size": 516
+    },
+    {
+      "address": "0x8001F3E8",
+      "name": "__25tInsideBoxLeftRightSliderUiP13tListIterator",
+      "size": 64
+    },
+    {
+      "address": "0x8001F428",
+      "name": "func_8001F428",
+      "size": 40
+    },
+    {
+      "address": "0x8001F450",
+      "name": "Draw__25tInsideBoxLeftRightSlideriiib",
+      "size": 388
+    },
+    {
+      "address": "0x8001F5D4",
+      "name": "__22tInsideBoxTwoWaySliderUiP13tListIteratori",
+      "size": 84
+    },
+    {
+      "address": "0x8001F628",
+      "name": "func_8001F628",
+      "size": 40
+    },
+    {
+      "address": "0x8001F650",
+      "name": "ProcessInput__22tInsideBoxTwoWaySlider7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 176
+    },
+    {
+      "address": "0x8001F700",
+      "name": "Draw__22tInsideBoxTwoWaySlideriiib",
+      "size": 704
+    },
+    {
+      "address": "0x8001F9C0",
+      "name": "func_8001F9C0",
+      "size": 92
+    },
+    {
+      "address": "0x8001FA1C",
+      "name": "func_8001FA1C",
+      "size": 92
+    },
+    {
+      "address": "0x8001FA78",
+      "name": "Calibrate__22tInsideBoxTwoWaySlider",
+      "size": 800
+    },
+    {
+      "address": "0x8001FD98",
+      "name": "__17tUserNameMenuItemUi",
+      "size": 116
+    },
+    {
+      "address": "0x8001FE0C",
+      "name": "CheckForCheats__FPc",
+      "size": 128
+    },
+    {
+      "address": "0x8001FE8C",
+      "name": "ProcessInput__17tUserNameMenuItem7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 960
+    },
+    {
+      "address": "0x8002024C",
+      "name": "SpecialCharacter__Fc",
+      "size": 144
+    },
+    {
+      "address": "0x800202DC",
+      "name": "Draw__17tUserNameMenuItemb",
+      "size": 1016
+    },
+    {
+      "address": "0x800206D4",
+      "name": "func_800206D4",
+      "size": 12
+    },
+    {
+      "address": "0x800206E0",
+      "name": "TransitionOn__17tUserNameMenuItem",
+      "size": 564
+    },
+    {
+      "address": "0x80020914",
+      "name": "TransitionIsFinished__17tUserNameMenuItem",
+      "size": 108
+    },
+    {
+      "address": "0x80020980",
+      "name": "UpdateTransition__17tUserNameMenuItemb",
+      "size": 124
+    },
+    {
+      "address": "0x800209FC",
+      "name": "Draw__19tMemoryCardMenuItemb",
+      "size": 600
+    },
+    {
+      "address": "0x80020C54",
+      "name": "ProcessInput__35tInsideBoxControllerLeftRightSlider7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 196
+    },
+    {
+      "address": "0x80020D18",
+      "name": "func_80020D18",
+      "size": 32
+    },
+    {
+      "address": "0x80020D38",
+      "name": "func_80020D38",
+      "size": 32
+    },
+    {
+      "address": "0x80020D58",
+      "name": "func_80020D58",
+      "size": 32
+    },
+    {
+      "address": "0x80020D78",
+      "name": "func_80020D78",
+      "size": 32
+    },
+    {
+      "address": "0x80020D98",
+      "name": "func_80020D98",
+      "size": 32
+    },
+    {
+      "address": "0x80020DB8",
+      "name": "func_80020DB8",
+      "size": 32
+    },
+    {
+      "address": "0x80020DD8",
+      "name": "func_80020DD8",
+      "size": 32
+    },
+    {
+      "address": "0x80020DF8",
+      "name": "func_80020DF8",
+      "size": 32
+    },
+    {
+      "address": "0x80020E18",
+      "name": "func_80020E18",
+      "size": 32
+    },
+    {
+      "address": "0x80020E38",
+      "name": "FETextRender_SetFont__Fi",
+      "size": 116
+    },
+    {
+      "address": "0x80020EAC",
+      "name": "FETextRender_FullTextRGB__FPcssics",
+      "size": 372
+    },
+    {
+      "address": "0x80021020",
+      "name": "FETextRender_FullText__FPcss13tMenuTextType14tMenuTextStates",
+      "size": 132
+    },
+    {
+      "address": "0x800210A4",
+      "name": "FETextRender_FullTextFade__FiPcss13tMenuTextType14tMenuTextStates",
+      "size": 208
+    },
+    {
+      "address": "0x80021174",
+      "name": "FETextRender_MenuTextPositioned__Fsss14tMenuTextState13tMenuTextType",
+      "size": 160
+    },
+    {
+      "address": "0x80021214",
+      "name": "FETextRender_MenuTextFade__Fis14tMenuTextState13tMenuTextType",
+      "size": 204
+    },
+    {
+      "address": "0x800212E0",
+      "name": "FETextRender_MenuTextPositionedJustify__Fssss14tMenuTextState13tMenuTextType",
+      "size": 84
+    },
+    {
+      "address": "0x80021334",
+      "name": "FETextRender_MenuTextPositionedJustifyFade__Fissss14tMenuTextState13tMenuTextType",
+      "size": 208
+    },
+    {
+      "address": "0x80021404",
+      "name": "FETextRender_WordWrapTextRGBJustify__FPcR4RECTiiib",
+      "size": 1140
+    },
+    {
+      "address": "0x80021878",
+      "name": "FETextRender_WordWrapTextRGB__FPcR4RECTi",
+      "size": 40
+    },
+    {
+      "address": "0x800218A0",
+      "name": "FETextRender_WordWrapTextFade__FiPcR4RECT14tMenuTextState13tMenuTextType",
+      "size": 168
+    },
+    {
+      "address": "0x80021948",
+      "name": "FETextRender_WordWrapText__FPcR4RECT14tMenuTextState13tMenuTextType",
+      "size": 60
+    },
+    {
+      "address": "0x80021984",
+      "name": "FETextRender_WordWrapFade__FisR4RECT14tMenuTextState13tMenuTextType",
+      "size": 104
+    },
+    {
+      "address": "0x800219EC",
+      "name": "FETextRender_WordWrap__FsR4RECT14tMenuTextState13tMenuTextType",
+      "size": 60
+    },
+    {
+      "address": "0x80021A28",
+      "name": "FETextRender_WordWrapHeight__FsPc",
+      "size": 76
+    },
+    {
+      "address": "0x80021A74",
+      "name": "FETextRender_Title__Fs",
+      "size": 212
+    },
+    {
+      "address": "0x80021B48",
+      "name": "FETextRender_SetABR__Fib",
+      "size": 40
+    },
+    {
+      "address": "0x80021B70",
+      "name": "Initialize__13tTrackManager",
+      "size": 64
+    },
+    {
+      "address": "0x80021BB0",
+      "name": "LoadTracks__13tTrackManagerR14tSaveTrackInfo",
+      "size": 44
+    },
+    {
+      "address": "0x80021BDC",
+      "name": "SaveTracks__13tTrackManagerR14tSaveTrackInfo",
+      "size": 40
+    },
+    {
+      "address": "0x80021C04",
+      "name": "GetTrack__13tTrackManagersR17tTrackInformation",
+      "size": 112
+    },
+    {
+      "address": "0x80021C74",
+      "name": "LoadDescription__13tTrackManager",
+      "size": 312
+    },
+    {
+      "address": "0x80021DAC",
+      "name": "ReleaseDescription__13tTrackManager",
+      "size": 64
+    },
+    {
+      "address": "0x80021DEC",
+      "name": "SetTrackAvailable__13tTrackManagersb",
+      "size": 20
+    },
+    {
+      "address": "0x80021E00",
+      "name": "SetClassAvailable__13tTrackManager15tTrackClassTypeb",
+      "size": 96
+    },
+    {
+      "address": "0x80021E60",
+      "name": "GetTrackByID__13tTrackManagers",
+      "size": 84
+    },
+    {
+      "address": "0x80021EB4",
+      "name": "__18tListIteratorTrackPcT1P13tTrackManager",
+      "size": 88
+    },
+    {
+      "address": "0x80021F0C",
+      "name": "___18tListIteratorTrack",
+      "size": 40
+    },
+    {
+      "address": "0x80021F34",
+      "name": "TextValue__18tListIteratorTrack7tPlayer",
+      "size": 64
+    },
+    {
+      "address": "0x80021F74",
+      "name": "Increment__18tListIteratorTrack7tPlayer",
+      "size": 172
+    },
+    {
+      "address": "0x80022020",
+      "name": "Decrement__18tListIteratorTrack7tPlayer",
+      "size": 144
+    },
+    {
+      "address": "0x800220B0",
+      "name": "ValidTrack__18tListIteratorTrackc",
+      "size": 168
+    },
+    {
+      "address": "0x80022158",
+      "name": "DrawTVLines__FR9tTVConfig",
+      "size": 852
+    },
+    {
+      "address": "0x800224AC",
+      "name": "DrawTV__FR9tTVConfig",
+      "size": 3260
+    },
+    {
+      "address": "0x80023168",
+      "name": "InitTV__FR9tTVConfigP18tTexture_ShapeInfos",
+      "size": 528
+    },
+    {
+      "address": "0x80023378",
+      "name": "TurnOffTV__FR9tTVConfig",
+      "size": 16
+    },
+    {
+      "address": "0x80023388",
+      "name": "TurnOnTV__FR9tTVConfig",
+      "size": 24
+    },
+    {
+      "address": "0x800233A0",
+      "name": "func_800233A0",
+      "size": 144
+    },
+    {
+      "address": "0x80023430",
+      "name": "FECheat_EncodeString__FPcT0",
+      "size": 140
+    },
+    {
+      "address": "0x800234BC",
+      "name": "FECheat_EncodeString2__FPcT0",
+      "size": 316
+    },
+    {
+      "address": "0x800235F8",
+      "name": "FECheat_ActivateBonus__F10tCheatCode",
+      "size": 60
+    },
+    {
+      "address": "0x80023634",
+      "name": "func_80023634",
+      "size": 264
+    },
+    {
+      "address": "0x8002373C",
+      "name": "FECheat_IsCheatEnabled__F10tCheatCode",
+      "size": 44
+    },
+    {
+      "address": "0x80023768",
+      "name": "FECheat_SaveBonus__FRUl",
+      "size": 16
+    },
+    {
+      "address": "0x80023778",
+      "name": "func_80023778",
+      "size": 120
+    },
+    {
+      "address": "0x800237F0",
+      "name": "FECheat_IsTheUserACryBabyCheater__Fv",
+      "size": 16
+    },
+    {
+      "address": "0x80023800",
+      "name": "func_80023800",
+      "size": 184
+    },
+    {
+      "address": "0x800238B8",
+      "name": "FEInput_VerifyControllerValues__Fi",
+      "size": 96
+    },
+    {
+      "address": "0x80023918",
+      "name": "FEInput_GetNoDebounceKey__Fii",
+      "size": 636
+    },
+    {
+      "address": "0x80023B94",
+      "name": "FEInput_GetDebounceKey__Fii",
+      "size": 276
+    },
+    {
+      "address": "0x80023CA8",
+      "name": "FEInput_GetKeyFromPlayer__F7tPlayerl",
+      "size": 328
+    },
+    {
+      "address": "0x80023DF0",
+      "name": "__13tListIteratorPsPc",
+      "size": 36
+    },
+    {
+      "address": "0x80023E14",
+      "name": "___13tListIterator",
+      "size": 52
+    },
+    {
+      "address": "0x80023E48",
+      "name": "Value__13tListIterator7tPlayer",
+      "size": 20
+    },
+    {
+      "address": "0x80023E5C",
+      "name": "func_80023E5C",
+      "size": 80
+    },
+    {
+      "address": "0x80023EAC",
+      "name": "Increment__13tListIterator7tPlayer",
+      "size": 76
+    },
+    {
+      "address": "0x80023EF8",
+      "name": "Decrement__13tListIterator7tPlayer",
+      "size": 136
+    },
+    {
+      "address": "0x80023F80",
+      "name": "__20tListIteratorIndexedPsPcT2",
+      "size": 68
+    },
+    {
+      "address": "0x80023FC4",
+      "name": "func_80023FC4",
+      "size": 40
+    },
+    {
+      "address": "0x80023FEC",
+      "name": "Value__20tListIteratorIndexed7tPlayer",
+      "size": 36
+    },
+    {
+      "address": "0x80024010",
+      "name": "func_80024010",
+      "size": 80
+    },
+    {
+      "address": "0x80024060",
+      "name": "Increment__20tListIteratorIndexed7tPlayer",
+      "size": 104
+    },
+    {
+      "address": "0x800240C8",
+      "name": "Decrement__20tListIteratorIndexed7tPlayer",
+      "size": 172
+    },
+    {
+      "address": "0x80024174",
+      "name": "func_80024174",
+      "size": 40
+    },
+    {
+      "address": "0x8002419C",
+      "name": "Value__26tListIteratorDoubleIndexed7tPlayer",
+      "size": 60
+    },
+    {
+      "address": "0x800241D8",
+      "name": "func_800241D8",
+      "size": 80
+    },
+    {
+      "address": "0x80024228",
+      "name": "Increment__26tListIteratorDoubleIndexed7tPlayer",
+      "size": 156
+    },
+    {
+      "address": "0x800242C4",
+      "name": "Decrement__26tListIteratorDoubleIndexed7tPlayer",
+      "size": 236
+    },
+    {
+      "address": "0x800243B0",
+      "name": "func_800243B0",
+      "size": 40
+    },
+    {
+      "address": "0x800243D8",
+      "name": "Value__24tListIteratorMultiPlayer7tPlayer",
+      "size": 40
+    },
+    {
+      "address": "0x80024400",
+      "name": "TextValue__24tListIteratorMultiPlayer7tPlayer",
+      "size": 80
+    },
+    {
+      "address": "0x80024450",
+      "name": "Increment__24tListIteratorMultiPlayer7tPlayer",
+      "size": 100
+    },
+    {
+      "address": "0x800244B4",
+      "name": "Decrement__24tListIteratorMultiPlayer7tPlayer",
+      "size": 160
+    },
+    {
+      "address": "0x80024554",
+      "name": "__18tListIteratorRangeccPc",
+      "size": 92
+    },
+    {
+      "address": "0x800245B0",
+      "name": "func_800245B0",
+      "size": 40
+    },
+    {
+      "address": "0x800245D8",
+      "name": "Value__18tListIteratorRange7tPlayer",
+      "size": 20
+    },
+    {
+      "address": "0x800245EC",
+      "name": "func_800245EC",
+      "size": 8
+    },
+    {
+      "address": "0x800245F4",
+      "name": "Increment__18tListIteratorRange7tPlayer",
+      "size": 40
+    },
+    {
+      "address": "0x8002461C",
+      "name": "Decrement__18tListIteratorRange7tPlayer",
+      "size": 40
+    },
+    {
+      "address": "0x80024644",
+      "name": "__25tListIteratorRangeIndexedccPcT3",
+      "size": 76
+    },
+    {
+      "address": "0x80024690",
+      "name": "func_80024690",
+      "size": 40
+    },
+    {
+      "address": "0x800246B8",
+      "name": "Value__25tListIteratorRangeIndexed7tPlayer",
+      "size": 36
+    },
+    {
+      "address": "0x800246DC",
+      "name": "Increment__25tListIteratorRangeIndexed7tPlayer",
+      "size": 60
+    },
+    {
+      "address": "0x80024718",
+      "name": "Decrement__25tListIteratorRangeIndexed7tPlayer",
+      "size": 60
+    },
+    {
+      "address": "0x80024754",
+      "name": "__9tMenuItemUi",
+      "size": 48
+    },
+    {
+      "address": "0x80024784",
+      "name": "___9tMenuItem",
+      "size": 52
+    },
+    {
+      "address": "0x800247B8",
+      "name": "func_800247B8",
+      "size": 8
+    },
+    {
+      "address": "0x800247C0",
+      "name": "func_800247C0",
+      "size": 8
+    },
+    {
+      "address": "0x800247C8",
+      "name": "UpdateTransition__9tMenuItemb",
+      "size": 32
+    },
+    {
+      "address": "0x800247E8",
+      "name": "func_800247E8",
+      "size": 8
+    },
+    {
+      "address": "0x800247F0",
+      "name": "UpdateSelFade__9tMenuItemb",
+      "size": 88
+    },
+    {
+      "address": "0x80024848",
+      "name": "Draw__9tMenuItemiib",
+      "size": 60
+    },
+    {
+      "address": "0x80024884",
+      "name": "Draw__9tMenuItemiiib",
+      "size": 68
+    },
+    {
+      "address": "0x800248C8",
+      "name": "__20tMenuItemInteractiveUi",
+      "size": 52
+    },
+    {
+      "address": "0x800248FC",
+      "name": "func_800248FC",
+      "size": 40
+    },
+    {
+      "address": "0x80024924",
+      "name": "__24tMenuItemLeftRightChoiceUiP13tListIterator",
+      "size": 80
+    },
+    {
+      "address": "0x80024974",
+      "name": "func_80024974",
+      "size": 40
+    },
+    {
+      "address": "0x8002499C",
+      "name": "ProcessInput__24tMenuItemLeftRightChoice7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 176
+    },
+    {
+      "address": "0x80024A4C",
+      "name": "Draw__24tMenuItemLeftRightChoiceb",
+      "size": 204
+    },
+    {
+      "address": "0x80024B18",
+      "name": "__24tMenuItemLeftRightSliderUiP13tListIterator",
+      "size": 92
+    },
+    {
+      "address": "0x80024B74",
+      "name": "func_80024B74",
+      "size": 40
+    },
+    {
+      "address": "0x80024B9C",
+      "name": "func_80024B9C",
+      "size": 8
+    },
+    {
+      "address": "0x80024BA4",
+      "name": "ProcessInput__24tMenuItemLeftRightSlider7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 168
+    },
+    {
+      "address": "0x80024C4C",
+      "name": "DrawSlider__FsssssssssbT9ss",
+      "size": 1464
+    },
+    {
+      "address": "0x80025204",
+      "name": "Draw__24tMenuItemLeftRightSliderb",
+      "size": 300
+    },
+    {
+      "address": "0x80025330",
+      "name": "SetDimensions__24tMenuItemLeftRightSliderssss",
+      "size": 24
+    },
+    {
+      "address": "0x80025348",
+      "name": "__23tMenuItemGoToMenuButtonUiP5tMenuPFR12tMenuCommand_v",
+      "size": 84
+    },
+    {
+      "address": "0x8002539C",
+      "name": "___23tMenuItemGoToMenuButton",
+      "size": 40
+    },
+    {
+      "address": "0x800253C4",
+      "name": "ProcessInput__23tMenuItemGoToMenuButton7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 144
+    },
+    {
+      "address": "0x80025454",
+      "name": "tMenuConstructor__5tMenuP9tMenuItemPv",
+      "size": 56
+    },
+    {
+      "address": "0x8002548C",
+      "name": "__5tMenuUiP7tScreenP5tMenuT3PFR12tMenuCommand_vs",
+      "size": 68
+    },
+    {
+      "address": "0x800254D0",
+      "name": "___5tMenu",
+      "size": 52
+    },
+    {
+      "address": "0x80025504",
+      "name": "Initialize__5tMenu",
+      "size": 148
+    },
+    {
+      "address": "0x80025598",
+      "name": "ProcessInput__5tMenu7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 796
+    },
+    {
+      "address": "0x800258B4",
+      "name": "GetNumberEnabledItems__5tMenu",
+      "size": 104
+    },
+    {
+      "address": "0x8002591C",
+      "name": "Draw__5tMenu",
+      "size": 172
+    },
+    {
+      "address": "0x800259C8",
+      "name": "UpdateTransition__5tMenu",
+      "size": 148
+    },
+    {
+      "address": "0x80025A5C",
+      "name": "func_80025A5C",
+      "size": 8
+    },
+    {
+      "address": "0x80025A64",
+      "name": "func_80025A64",
+      "size": 8
+    },
+    {
+      "address": "0x80025A6C",
+      "name": "func_80025A6C",
+      "size": 8
+    },
+    {
+      "address": "0x80025A74",
+      "name": "func_80025A74",
+      "size": 8
+    },
+    {
+      "address": "0x80025A7C",
+      "name": "DebounceKeys__5tMenu",
+      "size": 76
+    },
+    {
+      "address": "0x80025AC8",
+      "name": "func_80025AC8",
+      "size": 8
+    },
+    {
+      "address": "0x80025AD0",
+      "name": "func_80025AD0",
+      "size": 8
+    },
+    {
+      "address": "0x80025AD8",
+      "name": "DisplayLoadingText__7tScreen",
+      "size": 320
+    },
+    {
+      "address": "0x80025C18",
+      "name": "GoNonInterlaced__7tScreen",
+      "size": 208
+    },
+    {
+      "address": "0x80025CE8",
+      "name": "DrawBackgroundImage__7tScreeniiP18tTexture_ShapeInfoi",
+      "size": 208
+    },
+    {
+      "address": "0x80025DB8",
+      "name": "AsyncLoadPermanentShapeFile__7tScreenPc",
+      "size": 32
+    },
+    {
+      "address": "0x80025DD8",
+      "name": "AsyncLoadSwapShapeFile__7tScreenPc",
+      "size": 84
+    },
+    {
+      "address": "0x80025E2C",
+      "name": "IsShapeFileLoaded__7tScreenR17tShapeInformation",
+      "size": 376
+    },
+    {
+      "address": "0x80025FA4",
+      "name": "UploadPermanentShapes__7tScreeni",
+      "size": 76
+    },
+    {
+      "address": "0x80025FF0",
+      "name": "UploadSwapShapes__7tScreeni",
+      "size": 56
+    },
+    {
+      "address": "0x80026028",
+      "name": "GetShapeInfo__7tScreenRsT1PPcT3",
+      "size": 24
+    },
+    {
+      "address": "0x80026040",
+      "name": "__7tScreen",
+      "size": 88
+    },
+    {
+      "address": "0x80026098",
+      "name": "___7tScreen",
+      "size": 52
+    },
+    {
+      "address": "0x800260CC",
+      "name": "Initialize__7tScreen",
+      "size": 244
+    },
+    {
+      "address": "0x800261C0",
+      "name": "Cleanup__7tScreen",
+      "size": 76
+    },
+    {
+      "address": "0x8002620C",
+      "name": "Draw__7tScreenb",
+      "size": 84
+    },
+    {
+      "address": "0x80026260",
+      "name": "AsyncLoadShapeFile__7tScreenPcR17tShapeInformation",
+      "size": 276
+    },
+    {
+      "address": "0x80026374",
+      "name": "CancelAsyncLoad__7tScreenR17tShapeInformation",
+      "size": 152
+    },
+    {
+      "address": "0x8002640C",
+      "name": "InitializeShapes__7tScreenR17tShapeInformationUi",
+      "size": 168
+    },
+    {
+      "address": "0x800264B4",
+      "name": "FreeShapes__7tScreenR17tShapeInformation",
+      "size": 352
+    },
+    {
+      "address": "0x80026614",
+      "name": "UploadShapes__7tScreenR17tShapeInformationssss",
+      "size": 396
+    },
+    {
+      "address": "0x800267A0",
+      "name": "PreLoad__7tScreen",
+      "size": 132
+    },
+    {
+      "address": "0x80026824",
+      "name": "TransitionOff__7tScreen22tScreen_TransitionTypeP5tMenu",
+      "size": 32
+    },
+    {
+      "address": "0x80026844",
+      "name": "TransitionOn__7tScreen22tScreen_TransitionTypeP5tMenu",
+      "size": 36
+    },
+    {
+      "address": "0x80026868",
+      "name": "UpdateTransition__7tScreen",
+      "size": 120
+    },
+    {
+      "address": "0x800268E0",
+      "name": "TransitionIsFinished__7tScreen",
+      "size": 24
+    },
+    {
+      "address": "0x800268F8",
+      "name": "func_800268F8",
+      "size": 8
+    },
+    {
+      "address": "0x80026900",
+      "name": "func_80026900",
+      "size": 8
+    },
+    {
+      "address": "0x80026908",
+      "name": "func_80026908",
+      "size": 8
+    },
+    {
+      "address": "0x80026910",
+      "name": "func_80026910",
+      "size": 96
+    },
+    {
+      "address": "0x80026970",
+      "name": "func_80026970",
+      "size": 96
+    },
+    {
+      "address": "0x800269D0",
+      "name": "func_800269D0",
+      "size": 504
+    },
+    {
+      "address": "0x80026BC8",
+      "name": "FeTools_init__Fv",
+      "size": 232
+    },
+    {
+      "address": "0x80026CB0",
+      "name": "FeTools_deinit__Fv",
+      "size": 80
+    },
+    {
+      "address": "0x80026D00",
+      "name": "FeTools_FormatMoney__FPcl",
+      "size": 376
+    },
+    {
+      "address": "0x80026E78",
+      "name": "Front_ConstructAll__Fv",
+      "size": 400
+    },
+    {
+      "address": "0x80027008",
+      "name": "Front_DeleteAll__Fv",
+      "size": 100
+    },
+    {
+      "address": "0x8002706C",
+      "name": "Front_ResetSettingsForCar__Fii",
+      "size": 80
+    },
+    {
+      "address": "0x800270BC",
+      "name": "Front_ResetSettingsMenu__Fi",
+      "size": 72
+    },
+    {
+      "address": "0x80027104",
+      "name": "Front_ResetPSXController__Fii",
+      "size": 108
+    },
+    {
+      "address": "0x80027170",
+      "name": "Front_ResetPSXAnalogs__Fi",
+      "size": 68
+    },
+    {
+      "address": "0x800271B4",
+      "name": "GetPSXPadValue__Fii",
+      "size": 888
+    },
+    {
+      "address": "0x8002752C",
+      "name": "SetPads__Fv",
+      "size": 316
+    },
+    {
+      "address": "0x80027668",
+      "name": "InitFrontEndStructure__Fv",
+      "size": 760
+    },
+    {
+      "address": "0x80027960",
+      "name": "func_80027960",
+      "size": 8
+    },
+    {
+      "address": "0x80027968",
+      "name": "func_80027968",
+      "size": 100
+    },
+    {
+      "address": "0x800279CC",
+      "name": "func_800279CC",
+      "size": 212
+    },
+    {
+      "address": "0x80027AA0",
+      "name": "Front_InitGraphics__Fv",
+      "size": 120
+    },
+    {
+      "address": "0x80027B18",
+      "name": "Front_InitGraphicsAndDisplayLoading__Fv",
+      "size": 32
+    },
+    {
+      "address": "0x80027B38",
+      "name": "Front_Menu__F21tFront_ProcessingType",
+      "size": 692
+    },
+    {
+      "address": "0x80027DEC",
+      "name": "OutputDisplaySettings__FPiiiR17tTrackInformation",
+      "size": 536
+    },
+    {
+      "address": "0x80028004",
+      "name": "Front_GetLapsForType__Fv",
+      "size": 168
+    },
+    {
+      "address": "0x800280AC",
+      "name": "Front_InitStream__FR9tFEStream",
+      "size": 48
+    },
+    {
+      "address": "0x800280DC",
+      "name": "Front_InitPlayerCars__FR9tFEStream",
+      "size": 964
+    },
+    {
+      "address": "0x800284A0",
+      "name": "Front_InitTourneyTraffic__FR9tFEStream",
+      "size": 372
+    },
+    {
+      "address": "0x80028614",
+      "name": "Front_InitOpponentCars__FR9tFEStream",
+      "size": 1428
+    },
+    {
+      "address": "0x80028BA8",
+      "name": "func_80028BA8",
+      "size": 340
+    },
+    {
+      "address": "0x80028CFC",
+      "name": "Front_InitCopCars__FR9tFEStream",
+      "size": 960
+    },
+    {
+      "address": "0x800290BC",
+      "name": "Front_InitPerps__FR9tFEStream",
+      "size": 456
+    },
+    {
+      "address": "0x80029284",
+      "name": "func_80029284",
+      "size": 468
+    },
+    {
+      "address": "0x80029458",
+      "name": "Front_InitTraffic__FR9tFEStream",
+      "size": 568
+    },
+    {
+      "address": "0x80029690",
+      "name": "Front_AppendPlayerCarData__FPiR9tFEStream",
+      "size": 1252
+    },
+    {
+      "address": "0x80029B74",
+      "name": "func_80029B74",
+      "size": 820
+    },
+    {
+      "address": "0x80029EA8",
+      "name": "Front_AppendCopData__FPiR9tFEStream",
+      "size": 596
+    },
+    {
+      "address": "0x8002A0FC",
+      "name": "Front_AppendPerpData__FPiR9tFEStream",
+      "size": 664
+    },
+    {
+      "address": "0x8002A394",
+      "name": "Front_AppendTrafficData__FPiR9tFEStream",
+      "size": 592
+    },
+    {
+      "address": "0x8002A5E4",
+      "name": "Front_AppendTrackData__FPiR9tFEStream",
+      "size": 320
+    },
+    {
+      "address": "0x8002A724",
+      "name": "Front_EnableLocalSpeech__Fv",
+      "size": 140
+    },
+    {
+      "address": "0x8002A7B0",
+      "name": "Front_BuildStream__FPi",
+      "size": 4000
+    },
+    {
+      "address": "0x8002B750",
+      "name": "func_8002B750",
+      "size": 252
+    },
+    {
+      "address": "0x8002B84C",
+      "name": "SetLicensePlate__Fv",
+      "size": 168
+    },
+    {
+      "address": "0x8002B8F4",
+      "name": "SetPlayList__Fi",
+      "size": 236
+    },
+    {
+      "address": "0x8002B9E0",
+      "name": "Front_GetTrackRaced__Fv",
+      "size": 112
+    },
+    {
+      "address": "0x8002BA50",
+      "name": "PlayerNameExist__Fi",
+      "size": 44
+    },
+    {
+      "address": "0x8002BA7C",
+      "name": "PlayerName__Fi",
+      "size": 140
+    },
+    {
+      "address": "0x8002BB08",
+      "name": "PlayerNameMixedCase__Fi",
+      "size": 108
+    },
+    {
+      "address": "0x8002BB74",
+      "name": "__11tAllScreens",
+      "size": 1048
+    },
+    {
+      "address": "0x8002BF8C",
+      "name": "___11tAllScreens",
+      "size": 468
+    },
+    {
+      "address": "0x8002C160",
+      "name": "MenuExtended_SetOnePlayer__FR12tMenuCommand",
+      "size": 76
+    },
+    {
+      "address": "0x8002C1AC",
+      "name": "MenuExtended_SetTwoPlayer__FR12tMenuCommand",
+      "size": 80
+    },
+    {
+      "address": "0x8002C1FC",
+      "name": "MenuExtended_SetTestDrive__FR12tMenuCommand",
+      "size": 28
+    },
+    {
+      "address": "0x8002C218",
+      "name": "MenuExtended_SetSingleRace__FR12tMenuCommand",
+      "size": 64
+    },
+    {
+      "address": "0x8002C258",
+      "name": "MenuExtended_SetTournament__FR12tMenuCommand",
+      "size": 72
+    },
+    {
+      "address": "0x8002C2A0",
+      "name": "MenuExtended_SetSpecialEvent__FR12tMenuCommand",
+      "size": 72
+    },
+    {
+      "address": "0x8002C2E8",
+      "name": "MenuExtended_SetSoloRace__FR12tMenuCommand",
+      "size": 32
+    },
+    {
+      "address": "0x8002C308",
+      "name": "MenuExtended_GoToTwoPlayerSingleRace__FR12tMenuCommand",
+      "size": 276
+    },
+    {
+      "address": "0x8002C41C",
+      "name": "func_8002C41C",
+      "size": 64
+    },
+    {
+      "address": "0x8002C45C",
+      "name": "func_8002C45C",
+      "size": 64
+    },
+    {
+      "address": "0x8002C49C",
+      "name": "AskTheUserToSaveTheGame__Fv",
+      "size": 120
+    },
+    {
+      "address": "0x8002C514",
+      "name": "MenuExtended_TransitionFromPostGameToMainMenu__FR12tMenuCommand",
+      "size": 28
+    },
+    {
+      "address": "0x8002C530",
+      "name": "MenuExtended_TransitionFromPostGameToMainMenuAndSaveGame__FR12tMenuCommand",
+      "size": 76
+    },
+    {
+      "address": "0x8002C57C",
+      "name": "MenuExtended_GoToCarSelect__FR12tMenuCommand",
+      "size": 916
+    },
+    {
+      "address": "0x8002C910",
+      "name": "func_8002C910",
+      "size": 104
+    },
+    {
+      "address": "0x8002C978",
+      "name": "func_8002C978",
+      "size": 104
+    },
+    {
+      "address": "0x8002C9E0",
+      "name": "MenuExtended_GoToUpgrades__FR12tMenuCommand",
+      "size": 64
+    },
+    {
+      "address": "0x8002CA20",
+      "name": "GenericMenuSaveGame__Fi",
+      "size": 284
+    },
+    {
+      "address": "0x8002CB3C",
+      "name": "PinkSlipsPreSave__Fv",
+      "size": 200
+    },
+    {
+      "address": "0x8002CC04",
+      "name": "func_8002CC04",
+      "size": 92
+    },
+    {
+      "address": "0x8002CC60",
+      "name": "func_8002CC60",
+      "size": 92
+    },
+    {
+      "address": "0x8002CCBC",
+      "name": "func_8002CCBC",
+      "size": 92
+    },
+    {
+      "address": "0x8002CD18",
+      "name": "MenuExtended_GoToRace__FR12tMenuCommand",
+      "size": 348
+    },
+    {
+      "address": "0x8002CE74",
+      "name": "MenuExtended_GoTo2PlayerRace__FR12tMenuCommand",
+      "size": 332
+    },
+    {
+      "address": "0x8002CFC0",
+      "name": "MenuExtended_GoToTournTrackInfo__FR12tMenuCommand",
+      "size": 360
+    },
+    {
+      "address": "0x8002D128",
+      "name": "MenuExtended_GoToSpecialEventTrackInfo__FR12tMenuCommand",
+      "size": 364
+    },
+    {
+      "address": "0x8002D294",
+      "name": "MenuExtended_EnterUserName__FR12tMenuCommand",
+      "size": 100
+    },
+    {
+      "address": "0x8002D2F8",
+      "name": "func_8002D2F8",
+      "size": 64
+    },
+    {
+      "address": "0x8002D338",
+      "name": "func_8002D338",
+      "size": 64
+    },
+    {
+      "address": "0x8002D378",
+      "name": "MenuExtended_SetHPSoloRace__FR12tMenuCommand",
+      "size": 44
+    },
+    {
+      "address": "0x8002D3A4",
+      "name": "MenuExtended_SetHPDuelRace__FR12tMenuCommand",
+      "size": 44
+    },
+    {
+      "address": "0x8002D3D0",
+      "name": "MenuExtended_SetHotPursuit__FR12tMenuCommand",
+      "size": 80
+    },
+    {
+      "address": "0x8002D420",
+      "name": "MenuExtended_SellCar__FR12tMenuCommand",
+      "size": 344
+    },
+    {
+      "address": "0x8002D578",
+      "name": "MenuExtended_BuyCar__FR12tMenuCommand",
+      "size": 340
+    },
+    {
+      "address": "0x8002D6CC",
+      "name": "MenuExtended_PurchaseUpgrade__Fi",
+      "size": 320
+    },
+    {
+      "address": "0x8002D80C",
+      "name": "func_8002D80C",
+      "size": 32
+    },
+    {
+      "address": "0x8002D82C",
+      "name": "func_8002D82C",
+      "size": 32
+    },
+    {
+      "address": "0x8002D84C",
+      "name": "MenuExtended_PurchaseUpgrade3__FR12tMenuCommand",
+      "size": 32
+    },
+    {
+      "address": "0x8002D86C",
+      "name": "MenuExtended_SaveGame__FR12tMenuCommand",
+      "size": 80
+    },
+    {
+      "address": "0x8002D8BC",
+      "name": "GenericMenuLoadGame__Fi",
+      "size": 148
+    },
+    {
+      "address": "0x8002D950",
+      "name": "func_8002D950",
+      "size": 216
+    },
+    {
+      "address": "0x8002DA28",
+      "name": "MenuExtended_TierFinished__FR12tMenuCommand",
+      "size": 128
+    },
+    {
+      "address": "0x8002DAA8",
+      "name": "MenuExtended_DidUserWinBeTheCop__Fv",
+      "size": 284
+    },
+    {
+      "address": "0x8002DBC4",
+      "name": "MenuExtended_PostGameMenu__FR12tMenuCommand",
+      "size": 256
+    },
+    {
+      "address": "0x8002DCC4",
+      "name": "MenuExtended_FinishedPlayer1GetName__FR12tMenuCommand",
+      "size": 272
+    },
+    {
+      "address": "0x8002DDD4",
+      "name": "MenuExtended_FinishedPlayer2GetName__FR12tMenuCommand",
+      "size": 160
+    },
+    {
+      "address": "0x8002DE74",
+      "name": "MenuExtended_SetPinkSlips__FR12tMenuCommand",
+      "size": 192
+    },
+    {
+      "address": "0x8002DF34",
+      "name": "func_8002DF34",
+      "size": 692
+    },
+    {
+      "address": "0x8002E1E8",
+      "name": "MenuExtended_GoToGarage__FR12tMenuCommand",
+      "size": 168
+    },
+    {
+      "address": "0x8002E290",
+      "name": "func_8002E290",
+      "size": 12
+    },
+    {
+      "address": "0x8002E29C",
+      "name": "func_8002E29C",
+      "size": 16
+    },
+    {
+      "address": "0x8002E2AC",
+      "name": "func_8002E2AC",
+      "size": 12
+    },
+    {
+      "address": "0x8002E2B8",
+      "name": "func_8002E2B8",
+      "size": 16
+    },
+    {
+      "address": "0x8002E2C8",
+      "name": "func_8002E2C8",
+      "size": 16
+    },
+    {
+      "address": "0x8002E2D8",
+      "name": "MenuExtended_ExitTourney__FR12tMenuCommand",
+      "size": 144
+    },
+    {
+      "address": "0x8002E368",
+      "name": "MenuExtended_ExitPinkSlipsEarly__FR12tMenuCommand",
+      "size": 304
+    },
+    {
+      "address": "0x8002E498",
+      "name": "MenuExtended_PinkSlipsContinue__FR12tMenuCommand",
+      "size": 108
+    },
+    {
+      "address": "0x8002E504",
+      "name": "func_8002E504",
+      "size": 12828
+    },
+    {
+      "address": "0x80031720",
+      "name": "___15tGlobalMenuDefs",
+      "size": 3052
+    },
+    {
+      "address": "0x8003230C",
+      "name": "func_8003230C",
+      "size": 8
+    },
+    {
+      "address": "0x80032314",
+      "name": "func_80032314",
+      "size": 8
+    },
+    {
+      "address": "0x8003231C",
+      "name": "func_8003231C",
+      "size": 8
+    },
+    {
+      "address": "0x80032324",
+      "name": "func_80032324",
+      "size": 32
+    },
+    {
+      "address": "0x80032344",
+      "name": "func_80032344",
+      "size": 8
+    },
+    {
+      "address": "0x8003234C",
+      "name": "func_8003234C",
+      "size": 8
+    },
+    {
+      "address": "0x80032354",
+      "name": "func_80032354",
+      "size": 32
+    },
+    {
+      "address": "0x80032378",
+      "name": "Initialize__18tTournamentManager",
+      "size": 212
+    },
+    {
+      "address": "0x8003244C",
+      "name": "LoadDescription__18tTournamentManager",
+      "size": 588
+    },
+    {
+      "address": "0x80032698",
+      "name": "ReleaseDescription__18tTournamentManager",
+      "size": 60
+    },
+    {
+      "address": "0x800326D4",
+      "name": "UpdateTrackList__18tTournamentManagerss",
+      "size": 208
+    },
+    {
+      "address": "0x800327A4",
+      "name": "GetTrackList__18tTournamentManagerss",
+      "size": 56
+    },
+    {
+      "address": "0x800327DC",
+      "name": "GetTrackToRace__18tTournamentManagerR10tTrackInfo",
+      "size": 248
+    },
+    {
+      "address": "0x800328D4",
+      "name": "StartNewTournament__18tTournamentManagerUcUc",
+      "size": 568
+    },
+    {
+      "address": "0x80032B0C",
+      "name": "IsTournamentFinished__18tTournamentManager",
+      "size": 148
+    },
+    {
+      "address": "0x80032BA0",
+      "name": "tournPointsCompare__FPcT0",
+      "size": 140
+    },
+    {
+      "address": "0x80032C2C",
+      "name": "UpdateTournFinishMoney__18tTournamentManager",
+      "size": 304
+    },
+    {
+      "address": "0x80032D5C",
+      "name": "UpdateTrackFinishMoney__18tTournamentManager",
+      "size": 96
+    },
+    {
+      "address": "0x80032DBC",
+      "name": "CalcTrackFinishDamageBill__18tTournamentManagerbRlT2",
+      "size": 452
+    },
+    {
+      "address": "0x80032F80",
+      "name": "func_80032F80",
+      "size": 516
+    },
+    {
+      "address": "0x80033184",
+      "name": "AdvanceToNextTrack__18tTournamentManager",
+      "size": 1092
+    },
+    {
+      "address": "0x800335C8",
+      "name": "GetLastTrackRaced__18tTournamentManager",
+      "size": 112
+    },
+    {
+      "address": "0x80033638",
+      "name": "SaveTournament__18tTournamentManagerR15tSaveTournament",
+      "size": 72
+    },
+    {
+      "address": "0x80033680",
+      "name": "LoadTournament__18tTournamentManagerR15tSaveTournament",
+      "size": 72
+    },
+    {
+      "address": "0x800336C8",
+      "name": "GetNumCompetitors__18tTournamentManager",
+      "size": 76
+    },
+    {
+      "address": "0x80033714",
+      "name": "UpdateCarLineup__18tTournamentManager",
+      "size": 176
+    },
+    {
+      "address": "0x800337C4",
+      "name": "GetTrackFinishPrize__18tTournamentManagers",
+      "size": 472
+    },
+    {
+      "address": "0x8003399C",
+      "name": "GetTournamentFinishPrize__18tTournamentManagers",
+      "size": 116
+    },
+    {
+      "address": "0x80033A10",
+      "name": "GetAwardInformation__18tTournamentManagerR17tAwardInformation",
+      "size": 64
+    },
+    {
+      "address": "0x80033A50",
+      "name": "UpdateAwardInformation__18tTournamentManager",
+      "size": 376
+    },
+    {
+      "address": "0x80033BC8",
+      "name": "TournPointTotal__18tTournamentManagerPs",
+      "size": 28
+    },
+    {
+      "address": "0x80033BE4",
+      "name": "PlayerRanking__18tTournamentManagers",
+      "size": 144
+    },
+    {
+      "address": "0x80033C74",
+      "name": "CalcTierFinishPrize__18tTournamentManager",
+      "size": 44
+    },
+    {
+      "address": "0x80033CA0",
+      "name": "GetTrophyName__18tTournamentManagerP12tTourneyInfo11tTrophySizePci",
+      "size": 192
+    },
+    {
+      "address": "0x80033D60",
+      "name": "ValidCar__18tTournamentManagerR8tCarInfo",
+      "size": 376
+    },
+    {
+      "address": "0x80033ED8",
+      "name": "__23tListIteratorTournamentPcP18tTournamentManager",
+      "size": 80
+    },
+    {
+      "address": "0x80033F28",
+      "name": "___23tListIteratorTournament",
+      "size": 40
+    },
+    {
+      "address": "0x80033F50",
+      "name": "Value__23tListIteratorTournament7tPlayer",
+      "size": 20
+    },
+    {
+      "address": "0x80033F64",
+      "name": "TextValue__23tListIteratorTournament7tPlayer",
+      "size": 88
+    },
+    {
+      "address": "0x80033FBC",
+      "name": "Increment__23tListIteratorTournament7tPlayer",
+      "size": 160
+    },
+    {
+      "address": "0x8003405C",
+      "name": "Decrement__23tListIteratorTournament7tPlayer",
+      "size": 144
+    },
+    {
+      "address": "0x800340EC",
+      "name": "func_800340EC",
+      "size": 172
+    },
+    {
+      "address": "0x80034198",
+      "name": "Initialize__15tMissionManager",
+      "size": 28
+    },
+    {
+      "address": "0x800341B4",
+      "name": "func_800341B4",
+      "size": 308
+    },
+    {
+      "address": "0x800342E8",
+      "name": "ReleaseDescription__15tMissionManager",
+      "size": 60
+    },
+    {
+      "address": "0x80034324",
+      "name": "GetMissionStages__15tMissionManagerssPP10tStageInfo",
+      "size": 104
+    },
+    {
+      "address": "0x8003438C",
+      "name": "GetMissionToRace__15tMissionManagerPP12tMissionInfo",
+      "size": 68
+    },
+    {
+      "address": "0x800343D0",
+      "name": "ChecksumData__FP12tMemCardData",
+      "size": 120
+    },
+    {
+      "address": "0x80034448",
+      "name": "VerifySuccessfulRead__FP12tMemCardData",
+      "size": 216
+    },
+    {
+      "address": "0x80034520",
+      "name": "func_80034520",
+      "size": 36
+    },
+    {
+      "address": "0x80034544",
+      "name": "func_80034544",
+      "size": 36
+    },
+    {
+      "address": "0x80034568",
+      "name": "Confirm__Fii",
+      "size": 436
+    },
+    {
+      "address": "0x8003471C",
+      "name": "func_8003471C",
+      "size": 44
+    },
+    {
+      "address": "0x80034748",
+      "name": "func_80034748",
+      "size": 8
+    },
+    {
+      "address": "0x80034750",
+      "name": "func_80034750",
+      "size": 44
+    },
+    {
+      "address": "0x8003477C",
+      "name": "func_8003477C",
+      "size": 8
+    },
+    {
+      "address": "0x80034784",
+      "name": "func_80034784",
+      "size": 40
+    },
+    {
+      "address": "0x800347AC",
+      "name": "func_800347AC",
+      "size": 40
+    },
+    {
+      "address": "0x800347D4",
+      "name": "func_800347D4",
+      "size": 356
+    },
+    {
+      "address": "0x80034938",
+      "name": "func_80034938",
+      "size": 168
+    },
+    {
+      "address": "0x800349E0",
+      "name": "Init_MemcardFile__FR12MCRDFILE_defsb",
+      "size": 232
+    },
+    {
+      "address": "0x80034AC8",
+      "name": "func_80034AC8",
+      "size": 3688
+    },
+    {
+      "address": "0x80034F70",
+      "name": "func_80034F70",
+      "size": 2496
+    },
+    {
+      "address": "0x80035580",
+      "name": "func_80035580",
+      "size": 944
+    },
+    {
+      "address": "0x80035930",
+      "name": "SavePinkSlipsCarsWithErrorDialogs__Fsss",
+      "size": 880
+    },
+    {
+      "address": "0x80035CA0",
+      "name": "Setup__14tCreditManager",
+      "size": 16
+    },
+    {
+      "address": "0x80035CB0",
+      "name": "Init__14tCreditManageri",
+      "size": 224
+    },
+    {
+      "address": "0x80035D90",
+      "name": "func_80035D90",
+      "size": 12
+    },
+    {
+      "address": "0x80035D9C",
+      "name": "RealDeInit__14tCreditManager",
+      "size": 64
+    },
+    {
+      "address": "0x80035DDC",
+      "name": "Draw__14tCreditManagerb",
+      "size": 324
+    },
+    {
+      "address": "0x80035F20",
+      "name": "func_80035F20",
+      "size": 856
+    },
+    {
+      "address": "0x80036278",
+      "name": "DrawCurrCredit__14tCreditManager",
+      "size": 1804
+    },
+    {
+      "address": "0x80036988",
+      "name": "Initialize__10tVideoWallP9tTVConfigP18tTexture_ShapeInfossPss",
+      "size": 176
+    },
+    {
+      "address": "0x80036A38",
+      "name": "UpdateImages__10tVideoWall",
+      "size": 332
+    },
+    {
+      "address": "0x80036B84",
+      "name": "SetAvailableText__10tVideoWallsss",
+      "size": 28
+    },
+    {
+      "address": "0x80036BA0",
+      "name": "SetAvailableIcon__10tVideoWallssssP18tTexture_ShapeInfo",
+      "size": 32
+    },
+    {
+      "address": "0x80036BC0",
+      "name": "func_80036BC0",
+      "size": 12
+    },
+    {
+      "address": "0x80036BCC",
+      "name": "func_80036BCC",
+      "size": 8
+    },
+    {
+      "address": "0x80036BD4",
+      "name": "func_80036BD4",
+      "size": 8
+    },
+    {
+      "address": "0x80036BDC",
+      "name": "UpdateTransition__10tVideoWall",
+      "size": 464
+    },
+    {
+      "address": "0x80036DAC",
+      "name": "Draw__10tVideoWall",
+      "size": 676
+    },
+    {
+      "address": "0x80037050",
+      "name": "func_80037050",
+      "size": 36
+    },
+    {
+      "address": "0x80037074",
+      "name": "TurnOffInstant__10tVideoWall",
+      "size": 124
+    },
+    {
+      "address": "0x800370F0",
+      "name": "TurnOn__10tVideoWall",
+      "size": 40
+    },
+    {
+      "address": "0x80037118",
+      "name": "SwapBackground__11tScreenMaini",
+      "size": 444
+    },
+    {
+      "address": "0x800372D4",
+      "name": "DoneLoadingBackground__11tScreenMain",
+      "size": 124
+    },
+    {
+      "address": "0x80037350",
+      "name": "SetState__11tScreenMain16tScreenMainState",
+      "size": 724
+    },
+    {
+      "address": "0x80037624",
+      "name": "InitDynamicImages__11tScreenMain",
+      "size": 876
+    },
+    {
+      "address": "0x80037990",
+      "name": "ProcessInput__11tScreenMain7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 108
+    },
+    {
+      "address": "0x800379FC",
+      "name": "DrawDropShadow__11tScreenMain",
+      "size": 276
+    },
+    {
+      "address": "0x80037B10",
+      "name": "DrawVideoLines__11tScreenMain",
+      "size": 168
+    },
+    {
+      "address": "0x80037BB8",
+      "name": "DrawBackground__11tScreenMain",
+      "size": 3288
+    },
+    {
+      "address": "0x80038890",
+      "name": "GetShapeInfo__11tScreenMainRsT1PPcT3",
+      "size": 48
+    },
+    {
+      "address": "0x800388C0",
+      "name": "func_800388C0",
+      "size": 156
+    },
+    {
+      "address": "0x8003895C",
+      "name": "func_8003895C",
+      "size": 884
+    },
+    {
+      "address": "0x80038CD0",
+      "name": "Cleanup__11tScreenMain",
+      "size": 108
+    },
+    {
+      "address": "0x80038D3C",
+      "name": "___11tScreenMain",
+      "size": 36
+    },
+    {
+      "address": "0x80038D60",
+      "name": "func_80038D60",
+      "size": 1560
+    },
+    {
+      "address": "0x80039378",
+      "name": "GetShapeInfo__16tScreenPinkSlipsRsT1PPcT3",
+      "size": 192
+    },
+    {
+      "address": "0x80039438",
+      "name": "Initialize__16tScreenPinkSlips",
+      "size": 328
+    },
+    {
+      "address": "0x80039580",
+      "name": "func_80039580",
+      "size": 124
+    },
+    {
+      "address": "0x800395FC",
+      "name": "UpdateVideoWall__16tScreenPinkSlipsR17tTrackInformation",
+      "size": 172
+    },
+    {
+      "address": "0x800396A8",
+      "name": "DrawVideoWall__16tScreenPinkSlips",
+      "size": 636
+    },
+    {
+      "address": "0x80039924",
+      "name": "ProcessInput__16tScreenPinkSlips7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 316
+    },
+    {
+      "address": "0x80039A60",
+      "name": "func_80039A60",
+      "size": 32
+    },
+    {
+      "address": "0x80039A80",
+      "name": "DrawMoney__Fiiilii",
+      "size": 312
+    },
+    {
+      "address": "0x80039BB8",
+      "name": "__26tScreenTournamentStandings",
+      "size": 56
+    },
+    {
+      "address": "0x80039BF0",
+      "name": "Initialize__26tScreenTournamentStandings",
+      "size": 396
+    },
+    {
+      "address": "0x80039D7C",
+      "name": "Cleanup__26tScreenTournamentStandings",
+      "size": 32
+    },
+    {
+      "address": "0x80039D9C",
+      "name": "func_80039D9C",
+      "size": 36
+    },
+    {
+      "address": "0x80039DC0",
+      "name": "func_80039DC0",
+      "size": 36
+    },
+    {
+      "address": "0x80039DE4",
+      "name": "ProcessInput__26tScreenTournamentStandings7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 48
+    },
+    {
+      "address": "0x80039E14",
+      "name": "DrawBackground__26tScreenTournamentStandings",
+      "size": 2244
+    },
+    {
+      "address": "0x8003A6D8",
+      "name": "DrawBackground__24tScreenPinkSlipStandings",
+      "size": 1060
+    },
+    {
+      "address": "0x8003AAFC",
+      "name": "func_8003AAFC",
+      "size": 32
+    },
+    {
+      "address": "0x8003AB1C",
+      "name": "func_8003AB1C",
+      "size": 32
+    },
+    {
+      "address": "0x8003AB3C",
+      "name": "func_8003AB3C",
+      "size": 32
+    },
+    {
+      "address": "0x8003AB5C",
+      "name": "___26tScreenTournamentStandings",
+      "size": 36
+    },
+    {
+      "address": "0x8003AB80",
+      "name": "TransformVector",
+      "size": 228
+    },
+    {
+      "address": "0x8003AC64",
+      "name": "func_8003AC64",
+      "size": 500
+    },
+    {
+      "address": "0x8003AE58",
+      "name": "__16tScreenCarSelect",
+      "size": 272
+    },
+    {
+      "address": "0x8003AF68",
+      "name": "___16tScreenCarSelect",
+      "size": 40
+    },
+    {
+      "address": "0x8003AF90",
+      "name": "Cleanup__16tScreenCarSelect",
+      "size": 72
+    },
+    {
+      "address": "0x8003AFD8",
+      "name": "DrawOverlay__16tScreenCarSelectP8tOverlay",
+      "size": 2204
+    },
+    {
+      "address": "0x8003B874",
+      "name": "SetState__16tScreenCarSelecti",
+      "size": 644
+    },
+    {
+      "address": "0x8003BAF8",
+      "name": "CalcSplinePosition__16tScreenCarSelectiiiiUlRiN46",
+      "size": 704
+    },
+    {
+      "address": "0x8003BDB8",
+      "name": "GetShapeInfo__16tScreenCarSelectRsT1PPcT3",
+      "size": 196
+    },
+    {
+      "address": "0x8003BE7C",
+      "name": "UpdateVideoWall__16tScreenCarSelectR8tCarInfo",
+      "size": 208
+    },
+    {
+      "address": "0x8003BF4C",
+      "name": "AllocateAsyncBuffer__16tScreenCarSelect",
+      "size": 52
+    },
+    {
+      "address": "0x8003BF80",
+      "name": "FreeAsyncBuffer__16tScreenCarSelect",
+      "size": 40
+    },
+    {
+      "address": "0x8003BFA8",
+      "name": "InitializeVideoWall__16tScreenCarSelect",
+      "size": 184
+    },
+    {
+      "address": "0x8003C060",
+      "name": "Initialize__16tScreenCarSelect",
+      "size": 520
+    },
+    {
+      "address": "0x8003C268",
+      "name": "func_8003C268",
+      "size": 444
+    },
+    {
+      "address": "0x8003C424",
+      "name": "DrawVideoWall__16tScreenCarSelects",
+      "size": 268
+    },
+    {
+      "address": "0x8003C530",
+      "name": "GetCar__16tScreenCarSelectR8tCarInfo",
+      "size": 640
+    },
+    {
+      "address": "0x8003C7B0",
+      "name": "SetBrightness__16tScreenCarSelectss",
+      "size": 20
+    },
+    {
+      "address": "0x8003C7C4",
+      "name": "UpdateBrightness__16tScreenCarSelects",
+      "size": 132
+    },
+    {
+      "address": "0x8003C848",
+      "name": "DrawBackground__16tScreenCarSelect",
+      "size": 304
+    },
+    {
+      "address": "0x8003C978",
+      "name": "DrawSliders__16tScreenCarSelectR8tCarInfoss",
+      "size": 364
+    },
+    {
+      "address": "0x8003CAE4",
+      "name": "func_8003CAE4",
+      "size": 2264
+    },
+    {
+      "address": "0x8003D3BC",
+      "name": "PreLoad__20tScreenCarSelectDuel",
+      "size": 296
+    },
+    {
+      "address": "0x8003D4E4",
+      "name": "func_8003D4E4",
+      "size": 8
+    },
+    {
+      "address": "0x8003D4EC",
+      "name": "FreeAsyncBuffer__20tScreenCarSelectDuel",
+      "size": 44
+    },
+    {
+      "address": "0x8003D518",
+      "name": "InitializeVideoWall__20tScreenCarSelectDuel",
+      "size": 284
+    },
+    {
+      "address": "0x8003D634",
+      "name": "Initialize__20tScreenCarSelectDuel",
+      "size": 48
+    },
+    {
+      "address": "0x8003D664",
+      "name": "Cleanup__20tScreenCarSelectDuel",
+      "size": 48
+    },
+    {
+      "address": "0x8003D694",
+      "name": "DrawVideoWall__20tScreenCarSelectDuels",
+      "size": 344
+    },
+    {
+      "address": "0x8003D7EC",
+      "name": "DrawOpponentVideoWall__20tScreenCarSelectDuels",
+      "size": 292
+    },
+    {
+      "address": "0x8003D910",
+      "name": "GetShapeInfo__20tScreenCarSelectDuelRsT1PPcT3",
+      "size": 188
+    },
+    {
+      "address": "0x8003D9CC",
+      "name": "UpdateVideoWall__20tScreenCarSelectDuelR8tCarInfo",
+      "size": 208
+    },
+    {
+      "address": "0x8003DA9C",
+      "name": "UpdateOpponentVideoWall__20tScreenCarSelectDuelR8tCarInfo",
+      "size": 132
+    },
+    {
+      "address": "0x8003DB20",
+      "name": "DrawBackground__20tScreenCarSelectDuel",
+      "size": 1656
+    },
+    {
+      "address": "0x8003E198",
+      "name": "DrawForeground__20tScreenCarSelectDuel",
+      "size": 472
+    },
+    {
+      "address": "0x8003E370",
+      "name": "GetCar__25tScreenCarSelectTwoPlayerR8tCarInfo",
+      "size": 336
+    },
+    {
+      "address": "0x8003E4C0",
+      "name": "func_8003E4C0",
+      "size": 416
+    },
+    {
+      "address": "0x8003E660",
+      "name": "func_8003E660",
+      "size": 232
+    },
+    {
+      "address": "0x8003E748",
+      "name": "UpdateVideoWall__25tScreenCarSelectTwoPlayerR8tCarInfo",
+      "size": 212
+    },
+    {
+      "address": "0x8003E81C",
+      "name": "TurnOffVideoWall__25tScreenCarSelectTwoPlayer",
+      "size": 32
+    },
+    {
+      "address": "0x8003E83C",
+      "name": "DrawBackground__25tScreenCarSelectTwoPlayer",
+      "size": 1368
+    },
+    {
+      "address": "0x8003ED94",
+      "name": "DrawForeground__25tScreenCarSelectTwoPlayer",
+      "size": 572
+    },
+    {
+      "address": "0x8003EFD0",
+      "name": "SetDialog__25tScreenCarSelectTwoPlayer",
+      "size": 192
+    },
+    {
+      "address": "0x8003F090",
+      "name": "AllocateAsyncBuffer__25tScreenCarSelectTwoPlayer",
+      "size": 52
+    },
+    {
+      "address": "0x8003F0C4",
+      "name": "InitializeVideoWall__25tScreenCarSelectTwoPlayer",
+      "size": 124
+    },
+    {
+      "address": "0x8003F140",
+      "name": "func_8003F140",
+      "size": 128
+    },
+    {
+      "address": "0x8003F1C0",
+      "name": "Cleanup__25tScreenCarSelectTwoPlayer",
+      "size": 48
+    },
+    {
+      "address": "0x8003F1F0",
+      "name": "GetCar__25tScreenPinkSlipsCarSelectR8tCarInfo",
+      "size": 144
+    },
+    {
+      "address": "0x8003F280",
+      "name": "DrawBackground__25tScreenPinkSlipsCarSelect",
+      "size": 68
+    },
+    {
+      "address": "0x8003F2C4",
+      "name": "func_8003F2C4",
+      "size": 772
+    },
+    {
+      "address": "0x8003F5C8",
+      "name": "DrawForeground__25tScreenPinkSlipsCarSelect",
+      "size": 32
+    },
+    {
+      "address": "0x8003F5E8",
+      "name": "func_8003F5E8",
+      "size": 112
+    },
+    {
+      "address": "0x8003F658",
+      "name": "Cleanup__25tScreenPinkSlipsCarSelect",
+      "size": 84
+    },
+    {
+      "address": "0x8003F6AC",
+      "name": "SetDialog__25tScreenPinkSlipsCarSelect",
+      "size": 656
+    },
+    {
+      "address": "0x8003F93C",
+      "name": "func_8003F93C",
+      "size": 232
+    },
+    {
+      "address": "0x8003FA24",
+      "name": "func_8003FA24",
+      "size": 120
+    },
+    {
+      "address": "0x8003FA9C",
+      "name": "func_8003FA9C",
+      "size": 68
+    },
+    {
+      "address": "0x8003FAE0",
+      "name": "func_8003FAE0",
+      "size": 68
+    },
+    {
+      "address": "0x8003FB24",
+      "name": "___20tScreenCarSelectDuel",
+      "size": 32
+    },
+    {
+      "address": "0x8003FB48",
+      "name": "__18tScreenTournSelect",
+      "size": 52
+    },
+    {
+      "address": "0x8003FB7C",
+      "name": "___18tScreenTournSelect",
+      "size": 40
+    },
+    {
+      "address": "0x8003FBA4",
+      "name": "GetShapeInfo__18tScreenTournSelectRsT1PPcT3",
+      "size": 204
+    },
+    {
+      "address": "0x8003FC70",
+      "name": "Initialize__18tScreenTournSelect",
+      "size": 584
+    },
+    {
+      "address": "0x8003FEB8",
+      "name": "Cleanup__18tScreenTournSelect",
+      "size": 64
+    },
+    {
+      "address": "0x8003FEF8",
+      "name": "UpdateVideoWall__18tScreenTournSelectP12tTourneyInfo",
+      "size": 164
+    },
+    {
+      "address": "0x8003FF9C",
+      "name": "DrawVideoWall__18tScreenTournSelect",
+      "size": 656
+    },
+    {
+      "address": "0x8004022C",
+      "name": "DrawBackground__18tScreenTournSelect",
+      "size": 1660
+    },
+    {
+      "address": "0x800408A8",
+      "name": "func_800408A8",
+      "size": 168
+    },
+    {
+      "address": "0x80040950",
+      "name": "__17tScreenTrophyRoom",
+      "size": 64
+    },
+    {
+      "address": "0x80040990",
+      "name": "___17tScreenTrophyRoom",
+      "size": 40
+    },
+    {
+      "address": "0x800409B8",
+      "name": "GetShapeInfo__17tScreenTrophyRoomRsT1PPcT3",
+      "size": 192
+    },
+    {
+      "address": "0x80040A78",
+      "name": "ProcessInput__17tScreenTrophyRoom7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 528
+    },
+    {
+      "address": "0x80040C88",
+      "name": "PreLoad__17tScreenTrophyRoom",
+      "size": 104
+    },
+    {
+      "address": "0x80040CF0",
+      "name": "Initialize__17tScreenTrophyRoom",
+      "size": 472
+    },
+    {
+      "address": "0x80040EC8",
+      "name": "Cleanup__17tScreenTrophyRoom",
+      "size": 48
+    },
+    {
+      "address": "0x80040EF8",
+      "name": "DrawBackground__17tScreenTrophyRoom",
+      "size": 1044
+    },
+    {
+      "address": "0x8004130C",
+      "name": "LoadTrophy__17tScreenTrophyRoom",
+      "size": 220
+    },
+    {
+      "address": "0x800413E8",
+      "name": "GetShapeInfo__17tScreenTrophyInfoRsT1PPcT3",
+      "size": 304
+    },
+    {
+      "address": "0x80041518",
+      "name": "DrawBackground__17tScreenTrophyInfo",
+      "size": 1192
+    },
+    {
+      "address": "0x800419C0",
+      "name": "___17tScreenTrophyInfo",
+      "size": 32
+    },
+    {
+      "address": "0x800419E0",
+      "name": "DrawBackground__18tScreenTrackSelect",
+      "size": 1196
+    },
+    {
+      "address": "0x80041E8C",
+      "name": "GetShapeInfo__18tScreenTrackSelectRsT1PPcT3",
+      "size": 192
+    },
+    {
+      "address": "0x80041F4C",
+      "name": "Initialize__18tScreenTrackSelect",
+      "size": 444
+    },
+    {
+      "address": "0x80042108",
+      "name": "Cleanup__18tScreenTrackSelect",
+      "size": 64
+    },
+    {
+      "address": "0x80042148",
+      "name": "SetBrightness__18tScreenTrackSelects",
+      "size": 48
+    },
+    {
+      "address": "0x80042178",
+      "name": "UpdateBrightness__18tScreenTrackSelectR17tTrackInformation",
+      "size": 240
+    },
+    {
+      "address": "0x80042268",
+      "name": "UpdateVideoWall__18tScreenTrackSelectR17tTrackInformation",
+      "size": 116
+    },
+    {
+      "address": "0x800422DC",
+      "name": "DrawVideoWall__18tScreenTrackSelect",
+      "size": 272
+    },
+    {
+      "address": "0x800423EC",
+      "name": "ProcessInput__18tScreenTrackSelect7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 456
+    },
+    {
+      "address": "0x800425B4",
+      "name": "___18tScreenTrackSelect",
+      "size": 36
+    },
+    {
+      "address": "0x800425D8",
+      "name": "GetShapeInfo__16tScreenTrackInfoRsT1PPcT3",
+      "size": 160
+    },
+    {
+      "address": "0x80042678",
+      "name": "DrawBackground__16tScreenTrackInfo",
+      "size": 648
+    },
+    {
+      "address": "0x80042900",
+      "name": "Initialize__16tScreenTrackInfo",
+      "size": 108
+    },
+    {
+      "address": "0x8004296C",
+      "name": "ProcessInput__16tScreenTrackInfo7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 156
+    },
+    {
+      "address": "0x80042A08",
+      "name": "___16tScreenTrackInfo",
+      "size": 32
+    },
+    {
+      "address": "0x80042A28",
+      "name": "GetShapeInfo__19tScreenTrackRecordsRsT1PPcT3",
+      "size": 36
+    },
+    {
+      "address": "0x80042A4C",
+      "name": "Initialize__19tScreenTrackRecords",
+      "size": 88
+    },
+    {
+      "address": "0x80042AA4",
+      "name": "Cleanup__19tScreenTrackRecords",
+      "size": 60
+    },
+    {
+      "address": "0x80042AE0",
+      "name": "func_80042AE0",
+      "size": 624
+    },
+    {
+      "address": "0x80042D50",
+      "name": "DrawRecords__19tScreenTrackRecordss",
+      "size": 480
+    },
+    {
+      "address": "0x80042F30",
+      "name": "DrawBackground__19tScreenTrackRecords",
+      "size": 1456
+    },
+    {
+      "address": "0x800434E0",
+      "name": "___19tScreenTrackRecords",
+      "size": 32
+    },
+    {
+      "address": "0x80043500",
+      "name": "func_80043500",
+      "size": 12
+    },
+    {
+      "address": "0x8004350C",
+      "name": "SetActuators__23tScreenControllerConfigi",
+      "size": 136
+    },
+    {
+      "address": "0x80043594",
+      "name": "func_80043594",
+      "size": 8
+    },
+    {
+      "address": "0x8004359C",
+      "name": "ShakeIt__23tScreenControllerConfig",
+      "size": 156
+    },
+    {
+      "address": "0x80043638",
+      "name": "Controller_SetRamp__Fv",
+      "size": 332
+    },
+    {
+      "address": "0x80043784",
+      "name": "AnimKeyPoints__23tScreenControllerConfigbT1",
+      "size": 100
+    },
+    {
+      "address": "0x800437E8",
+      "name": "CheckConfigs__23tScreenControllerConfig",
+      "size": 748
+    },
+    {
+      "address": "0x80043AD4",
+      "name": "SwapInController__23tScreenControllerConfig",
+      "size": 140
+    },
+    {
+      "address": "0x80043B60",
+      "name": "SetCurrentController__23tScreenControllerConfigb",
+      "size": 888
+    },
+    {
+      "address": "0x80043ED8",
+      "name": "CalcAnimFrame__23tScreenControllerConfigi",
+      "size": 140
+    },
+    {
+      "address": "0x80043F64",
+      "name": "ActualDrawController__23tScreenControllerConfigiiiii",
+      "size": 616
+    },
+    {
+      "address": "0x800441CC",
+      "name": "DrawController__23tScreenControllerConfig",
+      "size": 3344
+    },
+    {
+      "address": "0x80044EDC",
+      "name": "HorzVertLine__23tScreenControllerConfigPsb",
+      "size": 588
+    },
+    {
+      "address": "0x80045128",
+      "name": "DrawArrow__23tScreenControllerConfigPs",
+      "size": 256
+    },
+    {
+      "address": "0x80045228",
+      "name": "DrawBackground__23tScreenControllerConfig",
+      "size": 548
+    },
+    {
+      "address": "0x8004544C",
+      "name": "DrawForeground__23tScreenControllerConfig",
+      "size": 1640
+    },
+    {
+      "address": "0x80045AB4",
+      "name": "GetShapeInfo__23tScreenControllerConfigRsT1PPcT3",
+      "size": 48
+    },
+    {
+      "address": "0x80045AE4",
+      "name": "Initialize__23tScreenControllerConfig",
+      "size": 292
+    },
+    {
+      "address": "0x80045C08",
+      "name": "Cleanup__23tScreenControllerConfig",
+      "size": 60
+    },
+    {
+      "address": "0x80045C44",
+      "name": "__23tScreenControllerConfig",
+      "size": 80
+    },
+    {
+      "address": "0x80045C94",
+      "name": "GetHelpText__23tScreenControllerConfig",
+      "size": 96
+    },
+    {
+      "address": "0x80045CF4",
+      "name": "___23tScreenControllerConfig",
+      "size": 68
+    },
+    {
+      "address": "0x80045D38",
+      "name": "DrawBackground__14tScreenDisplay",
+      "size": 140
+    },
+    {
+      "address": "0x80045DC4",
+      "name": "GetShapeInfo__14tScreenDisplayRsT1PPcT3",
+      "size": 40
+    },
+    {
+      "address": "0x80045DEC",
+      "name": "___14tScreenDisplay",
+      "size": 36
+    },
+    {
+      "address": "0x80045E10",
+      "name": "PlaySound__12tScreenAudio",
+      "size": 928
+    },
+    {
+      "address": "0x800461B0",
+      "name": "DrawForeground__12tScreenAudio",
+      "size": 272
+    },
+    {
+      "address": "0x800462C0",
+      "name": "DrawBackground__12tScreenAudio",
+      "size": 616
+    },
+    {
+      "address": "0x80046528",
+      "name": "func_80046528",
+      "size": 36
+    },
+    {
+      "address": "0x8004654C",
+      "name": "__12tScreenAudio",
+      "size": 64
+    },
+    {
+      "address": "0x8004658C",
+      "name": "Initialize__12tScreenAudio",
+      "size": 96
+    },
+    {
+      "address": "0x800465EC",
+      "name": "Cleanup__12tScreenAudio",
+      "size": 248
+    },
+    {
+      "address": "0x800466E4",
+      "name": "___12tScreenAudio",
+      "size": 36
+    },
+    {
+      "address": "0x80046708",
+      "name": "func_80046708",
+      "size": 36
+    },
+    {
+      "address": "0x8004672C",
+      "name": "DrawIcon__14tScreenMemcardP8shapetbliiiis",
+      "size": 504
+    },
+    {
+      "address": "0x80046924",
+      "name": "LoadIcon__14tScreenMemcardi",
+      "size": 860
+    },
+    {
+      "address": "0x80046C80",
+      "name": "DrawVerticalLine__14tScreenMemcardssss",
+      "size": 180
+    },
+    {
+      "address": "0x80046D34",
+      "name": "DrawHorizontalLine__14tScreenMemcardssss",
+      "size": 192
+    },
+    {
+      "address": "0x80046DF4",
+      "name": "PlaceIcons__14tScreenMemcardii",
+      "size": 852
+    },
+    {
+      "address": "0x80047148",
+      "name": "DrawMemCardStuff__14tScreenMemcards",
+      "size": 1372
+    },
+    {
+      "address": "0x800476A4",
+      "name": "SetEnablings__14tScreenMemcard",
+      "size": 436
+    },
+    {
+      "address": "0x80047858",
+      "name": "DrawBackground__14tScreenMemcard",
+      "size": 1640
+    },
+    {
+      "address": "0x80047EC0",
+      "name": "func_80047EC0",
+      "size": 268
+    },
+    {
+      "address": "0x80047FCC",
+      "name": "__14tScreenMemcard",
+      "size": 68
+    },
+    {
+      "address": "0x80048010",
+      "name": "ReleaseIcons__14tScreenMemcard",
+      "size": 120
+    },
+    {
+      "address": "0x80048088",
+      "name": "Initialize__14tScreenMemcard",
+      "size": 424
+    },
+    {
+      "address": "0x80048230",
+      "name": "func_80048230",
+      "size": 144
+    },
+    {
+      "address": "0x800482C0",
+      "name": "func_800482C0",
+      "size": 32
+    },
+    {
+      "address": "0x800482E0",
+      "name": "Cleanup__15tScreenCongrats",
+      "size": 44
+    },
+    {
+      "address": "0x8004830C",
+      "name": "func_8004830C",
+      "size": 592
+    },
+    {
+      "address": "0x8004855C",
+      "name": "GetCar__15tScreenCongratsR8tCarInfo",
+      "size": 88
+    },
+    {
+      "address": "0x800485B4",
+      "name": "DrawBackground__15tScreenCongrats",
+      "size": 2164
+    },
+    {
+      "address": "0x80048E28",
+      "name": "func_80048E28",
+      "size": 8
+    },
+    {
+      "address": "0x80048E30",
+      "name": "CalculatePrizes__15tScreenCongrats",
+      "size": 116
+    },
+    {
+      "address": "0x80048EA4",
+      "name": "Initialize__15tScreenCongrats",
+      "size": 196
+    },
+    {
+      "address": "0x80048F68",
+      "name": "ProcessInput__15tScreenCongrats7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 88
+    },
+    {
+      "address": "0x80048FC0",
+      "name": "DrawCongratsMessage__23tScreenPinkSlipCongrats",
+      "size": 284
+    },
+    {
+      "address": "0x800490DC",
+      "name": "GetCar__23tScreenPinkSlipCongratsR8tCarInfo",
+      "size": 120
+    },
+    {
+      "address": "0x80049154",
+      "name": "CalculatePrizes__23tScreenPinkSlipCongrats",
+      "size": 272
+    },
+    {
+      "address": "0x80049264",
+      "name": "Initialize__23tScreenPinkSlipCongrats",
+      "size": 88
+    },
+    {
+      "address": "0x800492BC",
+      "name": "Cleanup__23tScreenPinkSlipCongrats",
+      "size": 44
+    },
+    {
+      "address": "0x800492E8",
+      "name": "ProcessInput__23tScreenTournamentTrophy7tPlayerR13tInputKeyTypeR12tMenuCommand",
+      "size": 72
+    },
+    {
+      "address": "0x80049330",
+      "name": "GetCar__23tScreenTournamentTrophyR8tCarInfo",
+      "size": 172
+    },
+    {
+      "address": "0x800493DC",
+      "name": "func_800493DC",
+      "size": 740
+    },
+    {
+      "address": "0x800496C0",
+      "name": "CalculatePrizes__23tScreenTournamentTrophy",
+      "size": 576
+    },
+    {
+      "address": "0x80049900",
+      "name": "GetCar__23tScreenBeTheCopCongratsR8tCarInfo",
+      "size": 96
+    },
+    {
+      "address": "0x80049960",
+      "name": "CalculatePrizes__23tScreenBeTheCopCongrats",
+      "size": 80
+    },
+    {
+      "address": "0x800499B0",
+      "name": "func_800499B0",
+      "size": 192
+    },
+    {
+      "address": "0x80049A70",
+      "name": "GetCar__25tScreenTournamentCongratsR8tCarInfo",
+      "size": 84
+    },
+    {
+      "address": "0x80049AC4",
+      "name": "CalculatePrizes__25tScreenTournamentCongrats",
+      "size": 152
+    },
+    {
+      "address": "0x80049B5C",
+      "name": "DrawCongratsMessage__25tScreenTournamentCongrats",
+      "size": 204
+    },
+    {
+      "address": "0x80049C28",
+      "name": "func_80049C28",
+      "size": 32
+    },
+    {
+      "address": "0x80049C48",
+      "name": "func_80049C48",
+      "size": 32
+    },
+    {
+      "address": "0x80049C68",
+      "name": "func_80049C68",
+      "size": 32
+    },
+    {
+      "address": "0x80049C88",
+      "name": "func_80049C88",
+      "size": 32
+    },
+    {
+      "address": "0x80049CA8",
+      "name": "func_80049CA8",
+      "size": 32
+    },
+    {
+      "address": "0x80049CC8",
+      "name": "func_80049CC8",
+      "size": 828
+    },
+    {
+      "address": "0x8004A004",
+      "name": "StatChk_SaveRecordLapTime__FP10Car_tStatsss",
+      "size": 400
+    },
+    {
+      "address": "0x8004A194",
+      "name": "func_8004A194",
+      "size": 1196
+    },
+    {
+      "address": "0x8004A640",
+      "name": "func_8004A640",
+      "size": 1748
+    },
+    {
+      "address": "0x8004AD14",
+      "name": "func_8004AD14",
+      "size": 44
+    },
+    {
+      "address": "0x8004AD40",
+      "name": "func_8004AD40",
+      "size": 308
+    },
+    {
+      "address": "0x8004AE74",
+      "name": "Stattool_ParseTime__FiPc",
+      "size": 280
+    },
+    {
+      "address": "0x8004AF8C",
+      "name": "func_8004AF8C",
+      "size": 288
+    },
+    {
+      "address": "0x8004B0AC",
+      "name": "Stattool_SamNelsonsUpperLowerStringConverterForRecords__FPc",
+      "size": 124
+    },
+    {
+      "address": "0x8004B128",
+      "name": "StatTool_UpperCaseItKeepingInMindThoseBloodySpecialCharacters__FPc",
+      "size": 76
+    },
+    {
+      "address": "0x8004B174",
+      "name": "Stattool_GetAllDefaultRecords__FP13tRecordBufferb",
+      "size": 248
+    },
+    {
+      "address": "0x8004B26C",
+      "name": "Stattool_ReadDefaultRecords__FP13tRecordBufferb",
+      "size": 136
+    },
+    {
+      "address": "0x8004B2F4",
+      "name": "Stattool_GetRecords__FsP13tRecordBuffer",
+      "size": 72
+    },
+    {
+      "address": "0x8004B33C",
+      "name": "Stattool_ReturnRecordLapTime__Fs",
+      "size": 100
+    },
+    {
+      "address": "0x8004B3A0",
+      "name": "Stattool_CheckForHumanCar__FP10Car_tStats",
+      "size": 136
+    },
+    {
+      "address": "0x8004B428",
+      "name": "Stattool_GetAINameFromPersonality__F14tPersonalities",
+      "size": 60
+    },
+    {
+      "address": "0x8004B468",
+      "name": "Initialize__15tScreenUserName",
+      "size": 192
+    },
+    {
+      "address": "0x8004B528",
+      "name": "GetShapeInfo__15tScreenUserNameRsT1PPcT3",
+      "size": 96
+    },
+    {
+      "address": "0x8004B588",
+      "name": "DrawVerticalLine__15tScreenUserNamesss",
+      "size": 128
+    },
+    {
+      "address": "0x8004B608",
+      "name": "DrawHorizontalLine__15tScreenUserNamesss",
+      "size": 132
+    },
+    {
+      "address": "0x8004B68C",
+      "name": "DrawBackground__15tScreenUserName",
+      "size": 1576
+    },
+    {
+      "address": "0x8004BCB4",
+      "name": "___15tScreenUserName",
+      "size": 36
+    },
+    {
+      "address": "0x8004BCD8",
+      "name": "CalcFadeVal__Fiii",
+      "size": 144
+    },
+    {
+      "address": "0x8004BD68",
+      "name": "CalcFadeVal__Fii",
+      "size": 36
+    },
+    {
+      "address": "0x8004BD8C",
+      "name": "CalcFadeVal__Fiiii",
+      "size": 52
+    },
+    {
+      "address": "0x8004BDC0",
+      "name": "CalcTextFadeUnselToSel__F13tMenuTextTypess",
+      "size": 112
+    },
+    {
+      "address": "0x8004BE30",
+      "name": "CalcTextFadeSelToHi__F13tMenuTextTypess",
+      "size": 132
+    },
+    {
+      "address": "0x8004BEB4",
+      "name": "CalcOnOffFade__F13tMenuTextTypesssRiT4",
+      "size": 356
+    },
+    {
+      "address": "0x8004C018",
+      "name": "PSXDrawBrightEndLine__Fiiiiiiii",
+      "size": 64
+    },
+    {
+      "address": "0x8004C058",
+      "name": "PSXTransDrawBrightEndLine__Fiiiiiiiii",
+      "size": 648
+    },
+    {
+      "address": "0x8004C2E0",
+      "name": "DrawShape_SubtractNFS4RectEdges__FR4RECT",
+      "size": 432
+    },
+    {
+      "address": "0x8004C490",
+      "name": "DrawShape_NFS4RoundRectangle__FiR4RECTs",
+      "size": 524
+    },
+    {
+      "address": "0x8004C69C",
+      "name": "DrawShape_NFS4Rectangle__FR4RECT",
+      "size": 800
+    },
+    {
+      "address": "0x8004C9BC",
+      "name": "DrawShape_NFS4TransRectangle__FR4RECTs",
+      "size": 300
+    },
+    {
+      "address": "0x8004CAE8",
+      "name": "Movie_Init__Fc",
+      "size": 464
+    },
+    {
+      "address": "0x8004CCB8",
+      "name": "Movie_DeInit__Fv",
+      "size": 216
+    },
+    {
+      "address": "0x8004CD90",
+      "name": "Movie_SetDecodeOffset__Fssss",
+      "size": 212
+    },
+    {
+      "address": "0x8004CE64",
+      "name": "Movie_Load__Fc",
+      "size": 428
+    },
+    {
+      "address": "0x8004D010",
+      "name": "Movie_NextFrame__Fv",
+      "size": 308
+    },
+    {
+      "address": "0x8004D144",
+      "name": "Movie_DownloadFrame__Fv",
+      "size": 16
+    },
+    {
+      "address": "0x8004D154",
+      "name": "Movie_Stop__Fv",
+      "size": 16
+    },
+    {
+      "address": "0x8004D164",
+      "name": "Movie_Finished__Fv",
+      "size": 96
+    },
+    {
+      "address": "0x8004D1C4",
+      "name": "func_8004D1C4",
+      "size": 536
+    },
+    {
+      "address": "0x8004D3DC",
+      "name": "play_movie__Fc",
+      "size": 32
+    },
+    {
+      "address": "0x8004D3FC",
+      "name": "strSetDefDecEnv__FP6DECENV",
+      "size": 140
+    },
+    {
+      "address": "0x8004D488",
+      "name": "strInit__FP6CdlLOCiPFe_vT2",
+      "size": 152
+    },
+    {
+      "address": "0x8004D520",
+      "name": "strCallback__Fv",
+      "size": 764
+    },
+    {
+      "address": "0x8004D81C",
+      "name": "strNextVlc__FP6DECENV",
+      "size": 160
+    },
+    {
+      "address": "0x8004D8BC",
+      "name": "strNext__FP6DECENV",
+      "size": 520
+    },
+    {
+      "address": "0x8004DAC4",
+      "name": "strSync__FP6DECENVi",
+      "size": 176
+    },
+    {
+      "address": "0x8004DB74",
+      "name": "strKickCD__FP6CdlLOC",
+      "size": 76
+    },
+    {
+      "address": "0x8004DBC0",
+      "name": "FeDraw_SetABRMode__Fi",
+      "size": 160
+    },
+    {
+      "address": "0x8004DC60",
+      "name": "Quick_DD__Fiii",
+      "size": 68
+    },
+    {
+      "address": "0x8004DCA4",
+      "name": "PSXFront_AllocateDrawMemory__Fv",
+      "size": 116
+    },
+    {
+      "address": "0x8004DD18",
+      "name": "PSXFront_FreeDrawMemory__Fv",
+      "size": 32
+    },
+    {
+      "address": "0x8004DD38",
+      "name": "InitializeSpinningCars__Fv",
+      "size": 380
+    },
+    {
+      "address": "0x8004DEB4",
+      "name": "CleanupSpinningCars__Fv",
+      "size": 248
+    },
+    {
+      "address": "0x8004DFAC",
+      "name": "CleanupSpinningCarsMenu__Fv",
+      "size": 112
+    },
+    {
+      "address": "0x8004E01C",
+      "name": "DoTitleScreen__Fv",
+      "size": 256
+    },
+    {
+      "address": "0x8004E11C",
+      "name": "DoLanguageScreen__Fv",
+      "size": 60
+    },
+    {
+      "address": "0x8004E158",
+      "name": "PSXExitFrontend__Fv",
+      "size": 88
+    },
+    {
+      "address": "0x8004E1B0",
+      "name": "PSX_AllocShapes__Fv",
+      "size": 68
+    },
+    {
+      "address": "0x8004E1F4",
+      "name": "Init_RenderingEnvironment__Fv",
+      "size": 236
+    },
+    {
+      "address": "0x8004E2E0",
+      "name": "Init_PSX_FrontEnd__Fv",
+      "size": 320
+    },
+    {
+      "address": "0x8004E420",
+      "name": "AdjustShapeDrawing__FP18tTexture_ShapeInfoRiN21iPiP18tDrawShapeExtended",
+      "size": 812
+    },
+    {
+      "address": "0x8004E74C",
+      "name": "DrawGouraudShape__FP18tTexture_ShapeInfoiiiPii",
+      "size": 980
+    },
+    {
+      "address": "0x8004EB20",
+      "name": "DrawFlatShape__FP18tTexture_ShapeInfoiiiPii",
+      "size": 64
+    },
+    {
+      "address": "0x8004EB60",
+      "name": "DrawShapeExtended__FiiiiiiP18tDrawShapeExtended",
+      "size": 260
+    },
+    {
+      "address": "0x8004EC64",
+      "name": "ScaleGouraudShape__FP18tTexture_ShapeInfoiiiiiPii",
+      "size": 700
+    },
+    {
+      "address": "0x8004EF20",
+      "name": "ScaleFlatShape__FP18tTexture_ShapeInfoiiiiiPii",
+      "size": 80
+    },
+    {
+      "address": "0x8004EF70",
+      "name": "ScaleShapeExtended__FiiiiiiP18tDrawShapeExtended",
+      "size": 300
+    },
+    {
+      "address": "0x8004F09C",
+      "name": "LoadAllHelpShapes__Fv",
+      "size": 144
+    },
+    {
+      "address": "0x8004F12C",
+      "name": "PSXDrawSquare__Fiiiii",
+      "size": 152
+    },
+    {
+      "address": "0x8004F1C4",
+      "name": "PSXDrawGouraudSquare__Fiiiiiiii",
+      "size": 240
+    },
+    {
+      "address": "0x8004F2B4",
+      "name": "PSXDrawTransGouraudSquare__Fiiiiiiiii",
+      "size": 260
+    },
+    {
+      "address": "0x8004F3B8",
+      "name": "PSXDrawTransSquare__Fiiiiis",
+      "size": 228
+    },
+    {
+      "address": "0x8004F49C",
+      "name": "FontUpsideDownBlit__FiiPviiP12charactertbli",
+      "size": 332
+    },
+    {
+      "address": "0x8004F5E8",
+      "name": "FETexture_LoadPmxAtOffset__FPciP18tTexture_ShapeInfoii",
+      "size": 696
+    },
+    {
+      "address": "0x8004F8A0",
+      "name": "FETexture_LoadPmx__FPciP18tTexture_ShapeInfo",
+      "size": 40
+    },
+    {
+      "address": "0x8004F8C8",
+      "name": "MCRD_init",
+      "size": 160
+    },
+    {
+      "address": "0x8004F968",
+      "name": "iMCRD_InitCard",
+      "size": 88
+    },
+    {
+      "address": "0x8004F9C0",
+      "name": "MCRD_restore",
+      "size": 68
+    },
+    {
+      "address": "0x8004FA04",
+      "name": "MCRD_getopts",
+      "size": 120
+    },
+    {
+      "address": "0x8004FA7C",
+      "name": "MCRD_setopts",
+      "size": 292
+    },
+    {
+      "address": "0x8004FBA0",
+      "name": "MCRD_loadfile",
+      "size": 236
+    },
+    {
+      "address": "0x8004FC8C",
+      "name": "iMCRD_DoFileLoad",
+      "size": 680
+    },
+    {
+      "address": "0x8004FF34",
+      "name": "MCRD_savefile",
+      "size": 572
+    },
+    {
+      "address": "0x80050170",
+      "name": "iMCRD_DoFileWrite",
+      "size": 356
+    },
+    {
+      "address": "0x800502D4",
+      "name": "iMCRD_DoFileDelete",
+      "size": 148
+    },
+    {
+      "address": "0x80050368",
+      "name": "MCRD_handlecardevents",
+      "size": 844
+    },
+    {
+      "address": "0x800506B4",
+      "name": "MCRD_fileexists",
+      "size": 120
+    },
+    {
+      "address": "0x8005072C",
+      "name": "MCRD_getcard",
+      "size": 72
+    },
+    {
+      "address": "0x80050774",
+      "name": "iMCRD_timersub",
+      "size": 48
+    },
+    {
+      "address": "0x800507A4",
+      "name": "garyMemCardGrabBlocks",
+      "size": 136
+    },
+    {
+      "address": "0x8005082C",
+      "name": "iMCRD_LoadCard",
+      "size": 252
+    },
+    {
+      "address": "0x80050928",
+      "name": "iMCRD_FormatCard",
+      "size": 140
+    },
+    {
+      "address": "0x800509B4",
+      "name": "iMCRD_HandleError",
+      "size": 540
+    },
+    {
+      "address": "0x80050BD0",
+      "name": "func_80050BD0",
+      "size": 8
+    },
+    {
+      "address": "0x80050BD8",
+      "name": "ascii2sjis",
+      "size": 288
+    },
+    {
+      "address": "0x80050CF8",
+      "name": "sjis2ascii",
+      "size": 176
+    },
+    {
+      "address": "0x80050DA8",
+      "name": "initmdec",
+      "size": 404
+    },
+    {
+      "address": "0x80050F3C",
+      "name": "restoremdec",
+      "size": 84
+    },
+    {
+      "address": "0x80050F90",
+      "name": "mdecreset__Fv",
+      "size": 68
+    },
+    {
+      "address": "0x80050FD4",
+      "name": "mdec",
+      "size": 280
+    },
+    {
+      "address": "0x800510EC",
+      "name": "mdecdone",
+      "size": 28
+    },
+    {
+      "address": "0x80051108",
+      "name": "MDECCompleteHandler__Fv",
+      "size": 168
+    },
+    {
+      "address": "0x800511B0",
+      "name": "VIDEO_create__Fiiiii",
+      "size": 376
+    },
+    {
+      "address": "0x80051328",
+      "name": "VIDEO_destroy__Fi",
+      "size": 88
+    },
+    {
+      "address": "0x80051380",
+      "name": "VIDEO_spoolfile__FiPc",
+      "size": 92
+    },
+    {
+      "address": "0x800513DC",
+      "name": "VIDEO_startplayback__Fi",
+      "size": 96
+    },
+    {
+      "address": "0x8005143C",
+      "name": "VIDEO_abortplayback__Fi",
+      "size": 68
+    },
+    {
+      "address": "0x80051480",
+      "name": "VIDEO_state__Fi",
+      "size": 168
+    },
+    {
+      "address": "0x80051528",
+      "name": "VIDEO_updateframexy__Fiii",
+      "size": 320
+    },
+    {
+      "address": "0x80051668",
+      "name": "videoupdatetime__FP11VIDEOSTRUCT",
+      "size": 48
+    },
+    {
+      "address": "0x80051698",
+      "name": "videodecode__FP11VIDEOSTRUCTP14STREAMCHUNKHDRii",
+      "size": 176
+    },
+    {
+      "address": "0x80051B18",
+      "name": "func_80051B18",
+      "size": 8
+    }
+  ],
+  "labels": []
+}

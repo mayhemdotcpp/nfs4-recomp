@@ -1,0 +1,11 @@
+bin/
+obj/
+
+disc_patched/
+generated/
+build/
+
+*.sav
+*.cue
+*.bin
+*.chd

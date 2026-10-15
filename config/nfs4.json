@@ -1,0 +1,40 @@
+{
+  "game": {
+    "id": "SLUS-00826",
+    "name": "nfs4",
+    "output": "../generated"
+  },
+  "funcMap": "funcmaps/main.json",
+  "linearSweep": true,
+  "debug": false,
+  "overlays": [
+    {
+      "name": "front",
+      "funcMap": "funcmaps/front.json",
+      "base": "0x80010000",
+      "file": "FRONT.BIN",
+      "linearSweep": true
+    },
+    {
+      "name": "nfs4",
+      "funcMap": "funcmaps/nfs4.json",
+      "base": "0x80010000",
+      "file": "NFS4.EXE",
+      "skip": 2048,
+      "functions": [
+        {
+          "address": "800E4C38"
+        }
+      ]
+    }
+  ],
+  "patches": [
+    {
+      "overlay": "nfs4",
+      "function": "StGetNext",
+      "target": "Nfs4Port.Patches.MoviePatch.StGetNext",
+      "mode": "replace"
+    }
+  ],
+  "pgxp": true
+}

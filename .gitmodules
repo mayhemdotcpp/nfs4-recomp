@@ -1,0 +1,3 @@
+[submodule "external/RecompOne"]
+	path = external/RecompOne
+	url = https://github.com/mayhemdotcpp/RecompOne

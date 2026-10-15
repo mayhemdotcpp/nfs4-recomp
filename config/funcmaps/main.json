@@ -1,0 +1,685 @@
+{
+  "functions": [
+    {
+      "address": "0x801D0320",
+      "name": "func_801D0320",
+      "size": 220
+    },
+    {
+      "address": "0x801D03FC",
+      "name": "func_801D03FC",
+      "size": 8
+    },
+    {
+      "address": "0x801D04C0",
+      "name": "func_801D04C0",
+      "size": 12
+    },
+    {
+      "address": "0x801D04D0",
+      "name": "func_801D04D0",
+      "size": 12
+    },
+    {
+      "address": "0x801D04E0",
+      "name": "func_801D04E0",
+      "size": 12
+    },
+    {
+      "address": "0x801D04F0",
+      "name": "func_801D04F0",
+      "size": 12
+    },
+    {
+      "address": "0x801D0508",
+      "name": "func_801D0508",
+      "size": 12
+    },
+    {
+      "address": "0x801D0520",
+      "name": "VSync",
+      "size": 376
+    },
+    {
+      "address": "0x801D0698",
+      "name": "func_801D0698",
+      "size": 152
+    },
+    {
+      "address": "0x801D0730",
+      "name": "func_801D0730",
+      "size": 12
+    },
+    {
+      "address": "0x801D0740",
+      "name": "func_801D0740",
+      "size": 12
+    },
+    {
+      "address": "0x801D0758",
+      "name": "func_801D0758",
+      "size": 12
+    },
+    {
+      "address": "0x801D0770",
+      "name": "ResetCallback",
+      "size": 48
+    },
+    {
+      "address": "0x801D07A0",
+      "name": "InterruptCallback",
+      "size": 48
+    },
+    {
+      "address": "0x801D07D0",
+      "name": "DMACallback",
+      "size": 48
+    },
+    {
+      "address": "0x801D0800",
+      "name": "VSyncCallback",
+      "size": 52
+    },
+    {
+      "address": "0x801D0834",
+      "name": "VSyncCallbacks",
+      "size": 48
+    },
+    {
+      "address": "0x801D0864",
+      "name": "StopCallback",
+      "size": 48
+    },
+    {
+      "address": "0x801D0894",
+      "name": "RestartCallback",
+      "size": 48
+    },
+    {
+      "address": "0x801D08C4",
+      "name": "CheckCallback",
+      "size": 16
+    },
+    {
+      "address": "0x801D08D4",
+      "name": "GetIntrMask",
+      "size": 24
+    },
+    {
+      "address": "0x801D08EC",
+      "name": "SetIntrMask",
+      "size": 24
+    },
+    {
+      "address": "0x801D0904",
+      "name": "func_801D0904",
+      "size": 216
+    },
+    {
+      "address": "0x801D09DC",
+      "name": "func_801D09DC",
+      "size": 464
+    },
+    {
+      "address": "0x801D0BAC",
+      "name": "func_801D0BAC",
+      "size": 328
+    },
+    {
+      "address": "0x801D0CF4",
+      "name": "func_801D0CF4",
+      "size": 160
+    },
+    {
+      "address": "0x801D0D94",
+      "name": "func_801D0D94",
+      "size": 120
+    },
+    {
+      "address": "0x801D0E0C",
+      "name": "func_801D0E0C",
+      "size": 36
+    },
+    {
+      "address": "0x801D0E30",
+      "name": "func_801D0E30",
+      "size": 12
+    },
+    {
+      "address": "0x801D0E40",
+      "name": "func_801D0E40",
+      "size": 12
+    },
+    {
+      "address": "0x801D0E50",
+      "name": "func_801D0E50",
+      "size": 12
+    },
+    {
+      "address": "0x801D0E60",
+      "name": "EnterCriticalSection",
+      "size": 16
+    },
+    {
+      "address": "0x801D0E70",
+      "name": "ExitCriticalSection",
+      "size": 16
+    },
+    {
+      "address": "0x801D0E80",
+      "name": "func_801D0E80",
+      "size": 12
+    },
+    {
+      "address": "0x801D0E90",
+      "name": "func_801D0E90",
+      "size": 12
+    },
+    {
+      "address": "0x801D0EA0",
+      "name": "startIntrVSync",
+      "size": 88
+    },
+    {
+      "address": "0x801D0EF8",
+      "name": "func_801D0EF8",
+      "size": 108
+    },
+    {
+      "address": "0x801D0F64",
+      "name": "func_801D0F64",
+      "size": 44
+    },
+    {
+      "address": "0x801D0F90",
+      "name": "func_801D0F90",
+      "size": 36
+    },
+    {
+      "address": "0x801D0FC0",
+      "name": "startIntrDMA",
+      "size": 76
+    },
+    {
+      "address": "0x801D100C",
+      "name": "func_801D100C",
+      "size": 384
+    },
+    {
+      "address": "0x801D118C",
+      "name": "func_801D118C",
+      "size": 172
+    },
+    {
+      "address": "0x801D1238",
+      "name": "func_801D1238",
+      "size": 36
+    },
+    {
+      "address": "0x801D1260",
+      "name": "LoadTPage",
+      "size": 232
+    },
+    {
+      "address": "0x801D1348",
+      "name": "LoadClut",
+      "size": 100
+    },
+    {
+      "address": "0x801D13AC",
+      "name": "LoadClut2",
+      "size": 100
+    },
+    {
+      "address": "0x801D1410",
+      "name": "SetDefDrawEnv",
+      "size": 180
+    },
+    {
+      "address": "0x801D14C4",
+      "name": "SetDefDispEnv",
+      "size": 60
+    },
+    {
+      "address": "0x801D1500",
+      "name": "func_801D1500",
+      "size": 20
+    },
+    {
+      "address": "0x801D1514",
+      "name": "func_801D1514",
+      "size": 16
+    },
+    {
+      "address": "0x801D1530",
+      "name": "ResetGraph",
+      "size": 372
+    },
+    {
+      "address": "0x801D16A4",
+      "name": "SetGraphDebug",
+      "size": 92
+    },
+    {
+      "address": "0x801D1700",
+      "name": "SetGraphQueue",
+      "size": 164
+    },
+    {
+      "address": "0x801D17A4",
+      "name": "GetGraphDebug",
+      "size": 16
+    },
+    {
+      "address": "0x801D17B4",
+      "name": "DrawSyncCallback",
+      "size": 96
+    },
+    {
+      "address": "0x801D1814",
+      "name": "SetDispMask",
+      "size": 152
+    },
+    {
+      "address": "0x801D18AC",
+      "name": "DrawSync",
+      "size": 104
+    },
+    {
+      "address": "0x801D1914",
+      "name": "func_801D1914",
+      "size": 284
+    },
+    {
+      "address": "0x801D1A30",
+      "name": "ClearImage",
+      "size": 144
+    },
+    {
+      "address": "0x801D1AC0",
+      "name": "ClearImage2",
+      "size": 152
+    },
+    {
+      "address": "0x801D1B58",
+      "name": "LoadImage",
+      "size": 96
+    },
+    {
+      "address": "0x801D1BB8",
+      "name": "StoreImage",
+      "size": 96
+    },
+    {
+      "address": "0x801D1C18",
+      "name": "MoveImage",
+      "size": 184
+    },
+    {
+      "address": "0x801D1CD0",
+      "name": "ClearOTag",
+      "size": 200
+    },
+    {
+      "address": "0x801D1D98",
+      "name": "ClearOTagR",
+      "size": 172
+    },
+    {
+      "address": "0x801D1E44",
+      "name": "DrawPrim",
+      "size": 92
+    },
+    {
+      "address": "0x801D1EA0",
+      "name": "DrawOTag",
+      "size": 112
+    },
+    {
+      "address": "0x801D1F10",
+      "name": "PutDrawEnv",
+      "size": 192
+    },
+    {
+      "address": "0x801D1FD0",
+      "name": "DrawOTagEnv",
+      "size": 216
+    },
+    {
+      "address": "0x801D20A8",
+      "name": "GetDrawEnv",
+      "size": 52
+    },
+    {
+      "address": "0x801D20DC",
+      "name": "PutDispEnv",
+      "size": 1272
+    },
+    {
+      "address": "0x801D25D4",
+      "name": "GetDispEnv",
+      "size": 52
+    },
+    {
+      "address": "0x801D2608",
+      "name": "GetODE",
+      "size": 48
+    },
+    {
+      "address": "0x801D2638",
+      "name": "SetTexWindow",
+      "size": 56
+    },
+    {
+      "address": "0x801D2670",
+      "name": "SetDrawArea",
+      "size": 128
+    },
+    {
+      "address": "0x801D26F0",
+      "name": "SetDrawOffset",
+      "size": 64
+    },
+    {
+      "address": "0x801D2730",
+      "name": "SetPriority",
+      "size": 40
+    },
+    {
+      "address": "0x801D2758",
+      "name": "SetDrawStp",
+      "size": 40
+    },
+    {
+      "address": "0x801D2780",
+      "name": "SetDrawMode",
+      "size": 84
+    },
+    {
+      "address": "0x801D27D4",
+      "name": "SetDrawEnv",
+      "size": 504
+    },
+    {
+      "address": "0x801D29CC",
+      "name": "func_801D29CC",
+      "size": 624
+    },
+    {
+      "address": "0x801D2C3C",
+      "name": "func_801D2C3C",
+      "size": 32
+    },
+    {
+      "address": "0x801D2C5C",
+      "name": "func_801D2C5C",
+      "size": 152
+    },
+    {
+      "address": "0x801D2CF4",
+      "name": "func_801D2CF4",
+      "size": 152
+    },
+    {
+      "address": "0x801D2D8C",
+      "name": "func_801D2D8C",
+      "size": 28
+    },
+    {
+      "address": "0x801D2DA8",
+      "name": "func_801D2DA8",
+      "size": 128
+    },
+    {
+      "address": "0x801D2E28",
+      "name": "func_801D2E28",
+      "size": 24
+    },
+    {
+      "address": "0x801D2E40",
+      "name": "func_801D2E40",
+      "size": 224
+    },
+    {
+      "address": "0x801D2F20",
+      "name": "func_801D2F20",
+      "size": 560
+    },
+    {
+      "address": "0x801D3150",
+      "name": "func_801D3150",
+      "size": 572
+    },
+    {
+      "address": "0x801D338C",
+      "name": "func_801D338C",
+      "size": 640
+    },
+    {
+      "address": "0x801D360C",
+      "name": "func_801D360C",
+      "size": 36
+    },
+    {
+      "address": "0x801D3630",
+      "name": "func_801D3630",
+      "size": 20
+    },
+    {
+      "address": "0x801D3644",
+      "name": "func_801D3644",
+      "size": 64
+    },
+    {
+      "address": "0x801D3684",
+      "name": "func_801D3684",
+      "size": 72
+    },
+    {
+      "address": "0x801D36CC",
+      "name": "func_801D36CC",
+      "size": 48
+    },
+    {
+      "address": "0x801D36FC",
+      "name": "func_801D36FC",
+      "size": 36
+    },
+    {
+      "address": "0x801D3720",
+      "name": "func_801D3720",
+      "size": 688
+    },
+    {
+      "address": "0x801D39D0",
+      "name": "func_801D39D0",
+      "size": 608
+    },
+    {
+      "address": "0x801D3C30",
+      "name": "func_801D3C30",
+      "size": 336
+    },
+    {
+      "address": "0x801D3D80",
+      "name": "func_801D3D80",
+      "size": 316
+    },
+    {
+      "address": "0x801D3EBC",
+      "name": "func_801D3EBC",
+      "size": 52
+    },
+    {
+      "address": "0x801D3EF0",
+      "name": "func_801D3EF0",
+      "size": 324
+    },
+    {
+      "address": "0x801D4034",
+      "name": "func_801D4034",
+      "size": 160
+    },
+    {
+      "address": "0x801D40D4",
+      "name": "LoadImage2",
+      "size": 236
+    },
+    {
+      "address": "0x801D41C0",
+      "name": "StoreImage2",
+      "size": 236
+    },
+    {
+      "address": "0x801D42AC",
+      "name": "MoveImage2",
+      "size": 324
+    },
+    {
+      "address": "0x801D43F0",
+      "name": "DrawOTag2",
+      "size": 252
+    },
+    {
+      "address": "0x801D44EC",
+      "name": "_GPU_ResetCallback",
+      "size": 40
+    },
+    {
+      "address": "0x801D4514",
+      "name": "func_801D4514",
+      "size": 36
+    },
+    {
+      "address": "0x801D4540",
+      "name": "func_801D4540",
+      "size": 12
+    },
+    {
+      "address": "0x801D4550",
+      "name": "func_801D4550",
+      "size": 12
+    },
+    {
+      "address": "0x801D4560",
+      "name": "GetTPage",
+      "size": 60
+    },
+    {
+      "address": "0x801D45A0",
+      "name": "GetClut",
+      "size": 24
+    },
+    {
+      "address": "0x801D45C0",
+      "name": "SpuInit",
+      "size": 32
+    },
+    {
+      "address": "0x801D45E0",
+      "name": "_SpuInit",
+      "size": 232
+    },
+    {
+      "address": "0x801D46C8",
+      "name": "SpuStart",
+      "size": 112
+    },
+    {
+      "address": "0x801D4740",
+      "name": "func_801D4740",
+      "size": 12
+    },
+    {
+      "address": "0x801D4750",
+      "name": "func_801D4750",
+      "size": 12
+    },
+    {
+      "address": "0x801D4760",
+      "name": "_spu_init",
+      "size": 640
+    },
+    {
+      "address": "0x801D49E0",
+      "name": "func_801D49E0",
+      "size": 448
+    },
+    {
+      "address": "0x801D4BA0",
+      "name": "_spu_FiDMA",
+      "size": 188
+    },
+    {
+      "address": "0x801D4C5C",
+      "name": "_spu_Fr_",
+      "size": 168
+    },
+    {
+      "address": "0x801D4D04",
+      "name": "_spu_t",
+      "size": 640
+    },
+    {
+      "address": "0x801D4F84",
+      "name": "_spu_Fw",
+      "size": 132
+    },
+    {
+      "address": "0x801D5008",
+      "name": "_spu_Fr",
+      "size": 100
+    },
+    {
+      "address": "0x801D506C",
+      "name": "_spu_FsetRXX",
+      "size": 68
+    },
+    {
+      "address": "0x801D50B0",
+      "name": "_spu_FsetRXXa",
+      "size": 164
+    },
+    {
+      "address": "0x801D5154",
+      "name": "_spu_FgetRXXa",
+      "size": 60
+    },
+    {
+      "address": "0x801D5190",
+      "name": "_spu_FsetPCR",
+      "size": 88
+    },
+    {
+      "address": "0x801D51E8",
+      "name": "func_801D51E8",
+      "size": 40
+    },
+    {
+      "address": "0x801D5210",
+      "name": "func_801D5210",
+      "size": 40
+    },
+    {
+      "address": "0x801D5238",
+      "name": "_spu_Fw1ts",
+      "size": 92
+    },
+    {
+      "address": "0x801D52A0",
+      "name": "func_801D52A0",
+      "size": 12
+    },
+    {
+      "address": "0x801D52B0",
+      "name": "_SpuDataCallback",
+      "size": 36
+    },
+    {
+      "address": "0x801D6B68",
+      "name": "func_801D6B68",
+      "size": 52
+    }
+  ],
+  "labels": []
+}

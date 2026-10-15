@@ -1,0 +1,10 @@
+{
+  "formatVersion": 1,
+  "id": "example-pack",
+  "name": "Example Pack",
+  "version": "1.0",
+  "author": "",
+  "description": "Template: copy this folder without the leading dot, rename it and put textures in textures\\",
+  "priority": 0,
+  "game": { "id": "SLUS-00826" }
+}
