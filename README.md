@@ -116,7 +116,7 @@ You can change them under Settings > Input. The `+` next to a binding adds a sec
 ## Credits
 
 - [RecompOne](https://github.com/BlackLabelHQ/RecompOne) for the recompiler and runtime
-- the NFSHS-PSX decompilation project, whose function names and boundaries went into the function maps
+- [NFSHS-PSX decomp project](https://github.com/Caesar0007/NFSHS-PSX-decomp), whose function names and boundaries went into the function maps
 
 Need for Speed: High Stakes is a trademark of Electronic Arts. This project is not affiliated with or endorsed by
 Electronic Arts.
