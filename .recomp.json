@@ -1,0 +1,20 @@
+{
+  "$schema": "https://recomp.fyi/schema/v1.json",
+  "game": "Need for Speed: High Stakes",
+  "wikidata": "Q1309459",
+  "system": "PS1",
+  "type": "recomp",
+  "original": {
+    "region": "USA",
+    "serial": "SLUS-00826",
+    "sha1": "72e5fc9254903797a08d56babbef689e30514fb8"
+  },
+  "project": "Need for Speed: High Stakes Recompiled",
+  "status": "playable",
+  "targets": ["Windows", "Linux"],
+  "toolchain": "Recompone",
+  "approach": "Static recompilation",
+  "maintainers": [
+    { "name": "mayhem", "link": "https://github.com/mayhemdotcpp" }
+  ]
+}
