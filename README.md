@@ -13,7 +13,8 @@ The original game, enhanced with:
 
 - 16:9 widescreen, by widening the game's own camera rather than stretching the picture
 - PGXP for steadier polygons and textures (on by default)
-- 2 small C# mods that load at startup (unlock all cars, unlock all tracks)
+- 2 unlock mods (unlock all cars, unlock all tracks)
+- P2P multiplayer mod (netplay)
 - texture replacement packs, see [packs/README.md](packs/README.md)
 
 This repository contains no game data. You need your own copy of the game.
