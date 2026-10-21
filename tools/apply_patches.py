@@ -9,7 +9,8 @@ def function_span(lines, addr):
     # functions are found by address through the dispatch table, so their names (sweep or decomp) don't matter
     entry = next(l for l in lines if f"[0x{addr:08X}u] = nfs4_nfs4." in l)
     name = entry.split("nfs4_nfs4.", 1)[1].rstrip(",").strip()
-    start = next(i for i, l in enumerate(lines) if l.strip().startswith(f"public static void {name}("))
+    heads = (f"public static void {name}_Orig(", f"public static void {name}(")
+    start = next((i for head in heads for i, l in enumerate(lines) if l.strip().startswith(head)))
     end = next(i for i in range(start, len(lines)) if lines[i] == "    }")
     return start, end
 

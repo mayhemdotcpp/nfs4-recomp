@@ -93,13 +93,11 @@ static class ScriptedInput
             {
                 while (clock.Elapsed.TotalSeconds < step.At) Thread.Sleep(5);
                 Console.WriteLine($"[input] t={step.At}s mask=0x{step.Mask:X4} hold={step.HoldMs}ms");
-                var until = clock.ElapsedMilliseconds + step.HoldMs;
-                // the window thread rewrites the pad state every frame, so keep re-asserting the press
-                while (clock.ElapsedMilliseconds < until)
-                {
-                    RecompOne.Runtime.Hardware.Controller.State = (ushort)(RecompOne.Runtime.Hardware.Controller.State & ~step.Mask);
-                    Thread.Sleep(1);
-                }
+                // the window thread rewrites the pad state every frame and keeps forced buttons held
+                RecompOne.Runtime.Hardware.Controller.Forced |= step.Mask;
+                RecompOne.Runtime.Hardware.Controller.State = (ushort)(RecompOne.Runtime.Hardware.Controller.State & ~step.Mask);
+                Thread.Sleep(step.HoldMs);
+                RecompOne.Runtime.Hardware.Controller.Forced &= (ushort)~step.Mask;
             }
         }) { IsBackground = true, Name = "scripted-input" }.Start();
     }
