@@ -18,8 +18,13 @@ public static class Frontend
     // returns to at +0x54. items start with flags (bit 0 = disabled) and a text id at +4; go-to buttons
     // open the menu at +0x14 when confirmed
     private const uint MenuSize = 0xD4;
+    private const uint MenuSelected = 0x08;
     private const uint MenuItems = 0x10;
     private const uint MenuParent = 0x54;
+    private const uint MenuItemCount = 0x78;
+
+    // Initialize gives every item this flag when the menu has it
+    private const uint FlagInherited = 0x200;
 
     private const uint ItemText = 0x04;
     private const uint ItemTarget = 0x14;
@@ -49,6 +54,10 @@ public static class Frontend
     private static long _lastPoll;
     private static uint _host, _join;
 
+    private static IMemory _memory;
+    private static uint _gameSetup, _entry, _multiplayer;
+    private static uint _multiplayerTitle, _hostText;
+
     [PreHook("front", "Initialize__9tMenuNFS4")]
     private static void BeforeMenuInitialize(CpuContext c, IMemory m)
     {
@@ -56,6 +65,40 @@ public static class Frontend
         if (!IsGameSetup(m, menu)) return;
 
         Build(m, menu); // rebuilt every time
+    }
+
+    [PreHook("front", "Draw__9tMenuNFS4")]
+    private static void BeforeMenuDraw(CpuContext c, IMemory m)
+    {
+        var menu = c.A0;
+        var slot = menu + MenuItems + (uint)GameSetupTexts.Length * 4;
+        if ((_entry != 0 && m.ReadU32(slot) == _entry) || !IsGameSetup(m, menu)) return;
+
+        Build(m, menu);
+        if ((m.ReadU32(menu) & FlagInherited) != 0) m.WriteU32(_entry, m.ReadU32(_entry) | FlagInherited);
+        m.WriteU8(menu + MenuItemCount, (byte)(GameSetupTexts.Length + 1));
+    }
+
+    public static void Remove()
+    {
+        var m = _memory;
+        if (m == null || _entry == 0) return;
+
+        var slot = _gameSetup + MenuItems + (uint)GameSetupTexts.Length * 4;
+        if (IsGameSetup(m, _gameSetup) && m.ReadU32(slot) == _entry)
+        {
+            if (m.ReadU32(_gameSetup + MenuSelected) >= GameSetupTexts.Length)
+                m.WriteU32(_gameSetup + MenuSelected, (uint)GameSetupTexts.Length - 1);
+            m.WriteU32(slot, 0);
+            m.WriteU8(_gameSetup + MenuItemCount, (byte)GameSetupTexts.Length);
+        }
+
+        m.WriteU32(_multiplayer, _multiplayerTitle);
+        m.WriteU32(_host + ItemText, _hostText);
+        m.WriteU32(_join + ItemText, StandInWord);
+        m.WriteU32(_join + ItemTarget, _gameSetup);
+        m.WriteU32(_entry + ItemText, StandInWord);
+        _entry = 0;
     }
 
     [PreHook("front", "ProcessInput__23tMenuItemGoToMenuButton7tPlayerR13tInputKeyTypeR12tMenuCommand")]
@@ -227,10 +270,12 @@ public static class Frontend
 
         // HOST GAME / JOIN GAME, in a copy of the Single Race menu that goes back to Game Setup
         var multiplayer = Copy(m, singleRace, MenuSize);
+        _multiplayerTitle = m.ReadU32(multiplayer);
         m.WriteU32(multiplayer, TextMultiplayer);
         m.WriteU32(multiplayer + MenuParent, gameSetup);
         // One Player's Test Drive entry: its callback sets up Test Drive, its menu is track select
         _host = Copy(m, m.ReadU32(onePlayer + MenuItems), ItemSize);
+        _hostText = m.ReadU32(_host + ItemText);
         m.WriteU32(_host + ItemText, TextHost);
         _join = Button(m, template, TextJoin, 0);
         m.WriteU32(multiplayer + MenuItems, _host);
@@ -241,6 +286,8 @@ public static class Frontend
         var slot = (uint)GameSetupTexts.Length;
         m.WriteU32(gameSetup + MenuItems + slot * 4, entry);
         m.WriteU32(gameSetup + MenuItems + (slot + 1) * 4, 0);
+
+        (_memory, _gameSetup, _entry, _multiplayer) = (m, gameSetup, entry, multiplayer);
     }
 
     private static uint Button(IMemory m, uint template, uint text, uint target)

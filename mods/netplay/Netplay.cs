@@ -87,6 +87,7 @@ public sealed class NetplayMod : IMod
     private static readonly uint[] _state = new uint[StateWords()];
     private static int _lastTick = int.MaxValue;
     private static uint _gp;
+    private static IMemory _memory;
 
     public void OnLoad()
     {
@@ -102,6 +103,14 @@ public sealed class NetplayMod : IMod
         if (int.TryParse(Environment.GetEnvironmentVariable("NFS4_EXTRA_HUMANS"), out var n))
             _extraHumans = Math.Clamp(n, 0, 7);
         Console.WriteLine($"[netplay] local test, {_extraHumans} extra human car(s) on controller 2");
+    }
+
+    public void OnUnload()
+    {
+        _session?.Close();
+        _session = null;
+        if (_memory != null) ResetRace(_memory);
+        Frontend.Remove();
     }
 
     public static Session Session => _session;
@@ -131,6 +140,7 @@ public sealed class NetplayMod : IMod
     private static void BeforeCarTables(CpuContext c, IMemory m)
     {
         _gp = c.GP;
+        _memory = m;
         if (m.ReadU32(c.GP + GpCarCount) == 0)
         {
             ResetRace(m);
