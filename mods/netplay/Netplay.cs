@@ -25,6 +25,9 @@ public sealed class NetplayMod : IMod
     private const uint HumanCars = 0x80110D0C;
 
     private const uint CameraSlots = 0x80110570;
+    private const uint CarWrongWay = 0x3F0;
+    private const uint WrongWayRepeat = 0x8013EC1C;
+    private const uint TrackSlices = 0x8013DAB4;
 
     private const uint GameSetup = 0x801144A4;
     private const uint GameSetupCarCount = GameSetup + 0x3C4;
@@ -86,6 +89,7 @@ public sealed class NetplayMod : IMod
 
     private static readonly uint[] _state = new uint[StateWords()];
     private static int _lastTick = int.MaxValue;
+    private static bool _remoteAudioSource;
     private static uint _gp;
     private static IMemory _memory;
 
@@ -332,9 +336,6 @@ public sealed class NetplayMod : IMod
     [Replace("nfs4", "DashHUD_HUDCalc__Fi")]
     private static void DashboardCalc(Action<CpuContext, IMemory> orig, CpuContext c, IMemory m) => AsLocalHuman(orig, c, m);
 
-    [Replace("nfs4", "DashHUD_CheckWrongWay__Fi")]
-    private static void DashboardWrongWay(Action<CpuContext, IMemory> orig, CpuContext c, IMemory m) => AsLocalHuman(orig, c, m);
-
     private static void AsLocalHuman(Action<CpuContext, IMemory> orig, CpuContext c, IMemory m)
     {
         if (c.A0 == 0 && _session != null && _session.LocalPlayer > 0)
@@ -344,6 +345,70 @@ public sealed class NetplayMod : IMod
         }
 
         orig(c, m);
+    }
+
+    [Replace("nfs4", "func_80075F28")]
+    private static void AudioSource(Action<CpuContext, IMemory> orig, CpuContext c, IMemory m)
+    {
+        var local = c.A0 == 0 ? LocalCar() : 0;
+        if (local == 0)
+        {
+            orig(c, m);
+            return;
+        }
+
+        _remoteAudioSource = true;
+        orig(c, m);
+        _remoteAudioSource = false;
+        CountWrongWay(c, m, local);
+    }
+
+    [Replace("nfs4", "AudioCmn_PlayWrongWaySFX__Fv")]
+    private static void WrongWaySound(Action<CpuContext, IMemory> orig, CpuContext c, IMemory m)
+    {
+        if (!_remoteAudioSource) orig(c, m);
+    }
+
+    private static void CountWrongWay(CpuContext c, IMemory m, uint car)
+    {
+        if (m.ReadU32(GameSetup) is 1 or 5) return;
+
+        if (m.ReadU32(car + 0x390) == 2 || m.ReadU32(car + 0x460) != 0 || m.ReadU32(car + 0x278) != 0 || !Backwards(m, car))
+        {
+            m.WriteU32(car + CarWrongWay, 0);
+            return;
+        }
+
+        if (m.ReadU16(car + 0x17C) != 0 || m.ReadU32(car + 0x78C) != 0) return;
+
+        var time = (int)m.ReadU32(car + CarWrongWay) + 1;
+        m.WriteU32(car + CarWrongWay, (uint)time);
+        if (time >= 64 && (time & 31) == 0 && (time < 148 || m.ReadU32(WrongWayRepeat) != 0))
+            nfs4_nfs4.AudioCmn_PlayWrongWaySFX__Fv(c, m);
+    }
+
+    // the car's velocity along the track direction of its slice
+    private static bool Backwards(IMemory m, uint car)
+    {
+        if ((m.ReadU32(car + 0x260) & 0x200) != 0) return m.ReadU32(car + 0x550) != m.ReadU32(car + 0x554);
+
+        var slice = m.ReadU32(TrackSlices) + (uint)(short)m.ReadU16(car + 0x8) * 32;
+        var along = FixedMult(m.ReadU32(car + 0x108), (sbyte)m.ReadU8(slice + 0xF))
+                    + FixedMult(m.ReadU32(car + 0x10C), (sbyte)m.ReadU8(slice + 0x10))
+                    + FixedMult(m.ReadU32(car + 0x110), (sbyte)m.ReadU8(slice + 0x11));
+        if (m.ReadU32(GameSetup + SetupReverse) != 0) along = -along;
+        return along < 0;
+    }
+
+    private static int FixedMult(uint a, int b) => (int)(((long)(int)a * b + 0x8000) >> 16);
+
+    private static uint LocalCar()
+    {
+        if (_session == null || _session.LocalPlayer <= 0) return 0;
+        foreach (var (car, slot) in _slots)
+            if (slot == _session.LocalPlayer)
+                return car;
+        return 0;
     }
 
     [PostHook("nfs4", "Cars_CleanUp__Fv")]
