@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 using RecompOne.Runtime.Context;
+using RecompOne.Runtime.Dispatch;
 using RecompOne.Runtime.Hardware;
 using RecompOne.Runtime.Memory;
 using RecompOne.Runtime.Modding;
@@ -83,6 +84,7 @@ public sealed class NetplayMod : IMod
     private static readonly int[] _owner = new int[Session.MaxCars];
     private static int _carCount;
     private static uint _originalLocalHuman = uint.MaxValue;
+    private static uint? _raceSeed;
 
     private static readonly HashSet<uint> _logged = [];
     private static readonly Dictionary<int, uint> _lastInput = [];
@@ -176,6 +178,7 @@ public sealed class NetplayMod : IMod
         if (Environment.GetEnvironmentVariable("NFS4_NETPLAY_SETUPDUMP") is { Length: > 0 } dumpName)
             System.IO.File.WriteAllBytes(dumpName, ReadBytes(m, GameSetup, GameSetupSize));
 
+        _raceSeed = null;
         if (_session == null) return;
         if (_session.IsHost)
         {
@@ -218,6 +221,7 @@ public sealed class NetplayMod : IMod
             m.WriteU8(GameSetup + i, setup[i]);
         }
 
+        if (setup.Length >= GameSetupSize + 4) _raceSeed = BitConverter.ToUInt32(setup, (int)GameSetupSize);
         Console.WriteLine($"[netplay] using the host's race setup, {changed} byte(s) differed (waited {waited.ElapsedMilliseconds} ms)");
     }
 
@@ -255,8 +259,20 @@ public sealed class NetplayMod : IMod
             m.WriteU32(record + CarRecordGrid, (uint)p);
         }
 
-        _session.PublishSetup(ReadBytes(m, GameSetup, GameSetupSize));
+        // the setup goes out with a random seed for the race after it
+        _raceSeed = (uint)Environment.TickCount;
+        _session.PublishSetup([.. ReadBytes(m, GameSetup, GameSetupSize), .. BitConverter.GetBytes(_raceSeed.Value)]);
         Console.WriteLine($"[netplay] race with {players} player(s), waited {waited.ElapsedMilliseconds} ms for their cars");
+    }
+
+    [PreHook("nfs4", "func_8007EFEC")]
+    private static void BeforeAccidentRoll(CpuContext c, IMemory m)
+    {
+        if (_session == null || _raceSeed is not { } seed) return;
+        var (a0, t1, t2) = (c.A0, c.T1, c.T2);
+        (c.A0, c.T1) = (seed, 0x30);
+        Dispatcher.Call(c, m, 0xA0);
+        (c.A0, c.T1, c.T2) = (a0, t1, t2);
     }
 
     private static uint CarRecord(int car) => GameSetup + GameSetupCarRecords + (uint)car * CarRecordSize;
