@@ -1,7 +1,7 @@
 {
   "id": "netplay",
   "name": "Netplay",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "mayhem",
   "description": "This mod allows you to play the game with other players over the internet."
 }
