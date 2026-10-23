@@ -18,6 +18,8 @@ public sealed class NetplayMod : IMod
 
     private const uint CarSetup = 0x288;
     private const uint CarHumanIndex = 0x258;
+    private const uint CarFlags = 0x260;
+    private const uint CarFlagHuman = 0x4;
 
     private const uint GpCarCount = 0x2AC;
     private const uint GpHumanCount = 0x2B8;
@@ -120,6 +122,23 @@ public sealed class NetplayMod : IMod
     }
 
     public static Session Session => _session;
+
+    [Replace("nfs4", "R3DCar_Instantiate3DCar__FP8Car_tObji")]
+    private static void InstantiateCar(Action<CpuContext, IMemory> orig, CpuContext c, IMemory m)
+    {
+        var car = c.A0;
+        var local = _session?.LocalPlayer ?? 1;
+        if (!_slots.TryGetValue(car, out var slot) || slot == local)
+        {
+            orig(c, m);
+            return;
+        }
+
+        var flags = m.ReadU32(car + CarFlags);
+        m.WriteU32(car + CarFlags, flags & ~CarFlagHuman);
+        orig(c, m);
+        m.WriteU32(car + CarFlags, flags);
+    }
 
     // the address to join comes from NFS4_NET_ADDR (host[:port]), the local machine without it
     public static void StartSession(bool host)
