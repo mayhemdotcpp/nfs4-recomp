@@ -325,6 +325,49 @@ public sealed class NetplayMod : IMod
         _originalLocalHuman = uint.MaxValue;
     }
 
+    [Replace("nfs4", "Camera_Update__Fv")]
+    private static void CameraUpdate(Action<CpuContext, IMemory> orig, CpuContext c, IMemory m) => AsLocalView(orig, c, m);
+
+    [Replace("nfs4", "Camera_GetViewInfo__FiP17DRender_tCalcViewi")]
+    private static void CameraViewInfo(Action<CpuContext, IMemory> orig, CpuContext c, IMemory m) => AsLocalView(orig, c, m);
+
+    [Replace("nfs4", "Camera_OpponentLookBehind__FiP8coorddefi")]
+    private static void CameraLookBehind(Action<CpuContext, IMemory> orig, CpuContext c, IMemory m) => AsLocalView(orig, c, m);
+
+    [Replace("nfs4", "Camera_NextMode__Fi")]
+    private static void CameraNextMode(Action<CpuContext, IMemory> orig, CpuContext c, IMemory m) => AsLocalView(orig, c, m);
+
+    [Replace("nfs4", "Camera_SetMode__Fii")]
+    private static void CameraSetMode(Action<CpuContext, IMemory> orig, CpuContext c, IMemory m) => AsLocalView(orig, c, m);
+
+    private static int _viewSwapDepth;
+
+    private static void AsLocalView(Action<CpuContext, IMemory> orig, CpuContext c, IMemory m)
+    {
+        var car = _viewSwapDepth == 0 ? LocalCar() : 0;
+        var index = car != 0 ? m.ReadU32(car + CarHumanIndex) : 0;
+        if (index == 0 || index >= 9 || m.ReadU32(HumanCars + index * 4) != car)
+        {
+            orig(c, m);
+            return;
+        }
+
+        var host = m.ReadU32(HumanCars);
+        m.WriteU32(HumanCars, car);
+        m.WriteU32(HumanCars + index * 4, host);
+        _viewSwapDepth++;
+        try
+        {
+            orig(c, m);
+        }
+        finally
+        {
+            _viewSwapDepth--;
+            m.WriteU32(HumanCars + index * 4, car);
+            m.WriteU32(HumanCars, host);
+        }
+    }
+
     [Replace("nfs4", "InGame_SetRamp__Fv")]
     private static void SetRamp(Action<CpuContext, IMemory> orig, CpuContext c, IMemory m)
     {
@@ -380,6 +423,40 @@ public sealed class NetplayMod : IMod
         }
 
         orig(c, m);
+    }
+
+    [Replace("nfs4", "HudPmx_InitTextures__Fv")]
+    private static void HudTextures(Action<CpuContext, IMemory> orig, CpuContext c, IMemory m) => AsLocalCarRecord(orig, c, m);
+
+    [Replace("nfs4", "Hud_BuildTach__Fi")]
+    private static void HudTach(Action<CpuContext, IMemory> orig, CpuContext c, IMemory m)
+    {
+        if (c.A0 == 0) AsLocalCarRecord(orig, c, m);
+        else orig(c, m);
+    }
+
+    private static void AsLocalCarRecord(Action<CpuContext, IMemory> orig, CpuContext c, IMemory m)
+    {
+        var local = _session?.LocalPlayer ?? 0;
+        if (local <= 0)
+        {
+            orig(c, m);
+            return;
+        }
+
+        var host = m.ReadU32(CarRecord(0));
+        var own = m.ReadU32(CarRecord(local));
+        m.WriteU32(CarRecord(0), own);
+        m.WriteU32(CarRecord(local), host);
+        try
+        {
+            orig(c, m);
+        }
+        finally
+        {
+            m.WriteU32(CarRecord(local), own);
+            m.WriteU32(CarRecord(0), host);
+        }
     }
 
     [Replace("nfs4", "func_80075F28")]
